@@ -79,16 +79,18 @@ def main():
                 )
 
                 image_data = None
-                if response.candidates and response.candidates[0].content.parts:
+                
+                # CRASH FIX: Check if content actually exists before asking for parts
+                if response.candidates and response.candidates[0].content and response.candidates[0].content.parts:
                     for part in response.candidates[0].content.parts:
                         if part.inline_data:
                             image_data = part.inline_data.data
                             break
                 
                 if not image_data:
-                    print("Error: Model returned text. Retrying...")
-                    time.sleep(1)
-                    continue
+                    print("Error: Model returned text or BLOCKED the image (Safety Filter).")
+                    # If blocked, we skip this image and move to the next story
+                    break 
 
                 image = Image.open(BytesIO(image_data))
                 image.show()

@@ -1,0 +1,34 @@
+{% extends "base.html" %}
+
+{% block content %}
+<style>
+    .section-title { 
+        border-bottom: 2px double #ccc; padding-bottom: 10px; margin-bottom: 20px;
+        text-transform: uppercase; font-size: 1.2rem; color: #666;
+    }
+    .teaser-card {
+        background: #fff; border: 1px solid #ddd; padding: 15px; margin-bottom: 15px;
+        cursor: pointer; transition: transform 0.2s, box-shadow 0.2s;
+    }
+    .teaser-card:hover { transform: translateY(-2px); box-shadow: 0 4px 8px rgba(0,0,0,0.1); border-color: #999; }
+    .teaser-headline { font-size: 1.4rem; font-weight: bold; margin-bottom: 5px; }
+    .teaser-snippet { color: #666; font-size: 0.9rem; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; }
+</style>
+
+<div class="section-container">
+    <div class="section-title">{{ title }}</div>
+
+    {% if stories %}
+        {% for story in stories %}
+            <!-- The Magic: Clicking sends data to the JS Modal function defined in base.html -->
+            <div class="teaser-card" onclick="openModal(`{{ story.headline }}`, `{{ story.image }}`, `{{ story.subtext }}`)">
+                <div class="teaser-headline">{{ story.headline }}</div>
+                <div class="teaser-snippet">{{ story.subtext }}</div>
+            </div>
+        {% endfor %}
+    {% else %}
+        <p>No news in this section today.</p>
+    {% endif %}
+
+</div>
+{% endblock %}

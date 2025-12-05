@@ -1,107 +1,122 @@
 [
     {
-        "source_query": "site:ntnews.com.au",
-        "title": "Milgate has another crack at bail - NT News",
-        "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPeWpMTmJ1MlhfaW83bXR5RVdNZ3BfUU5SYUFWZnFOWWtabVl1bG9sRWU1MXhGYkpNRHZCcmtOMW1NNU5FMnZncnlvV0c4UG9fLXppcWhvbGkxZGg5aDZRX0xGZzl0LUZtX09kVzhIWjhzdDh2MGNsM1ZEckgyV2ZfckdJa2FibGdSTXJYb0xVN005VEowZ0h0aWZncDFEUEFJUWJYRk8zTUVFVVdUeXVVaFFRQXRXNVR0Qnc?oc=5",
-        "published": "Tue, 02 Dec 2025 17:39:00 GMT",
-        "clean_title": "Milgate has another crack at bail"
+        "source_query": "Townsville Bulletin",
+        "title": "Woman dies after being attacked by dog",
+        "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxNQ1BBNWNuemlnMzF6ME5RYUNEaXoySmNEWE45ZDM2QVBOY0lUOXU5QUZTUjI3TU95SF9YQW5kZlVlS1BWUWlHSTVVbExoYm9XSno3cnU1RVdOc24wem95dWNkS1VNYzZMd3gzOHI5SWUzcGFvNUVwYXJRQVR4Y3JEMWVkTTNGSzM5RXBGMl9tSGRCc0ZBTVBYN0NieE9lc0JkOWxEbFFaNnlOR204NzBfNHhpMk8wMzVNdEVWLTVlNmpvLVB4UTBmallfb2tMb01aN2lmQWVxRndIVDdTRXJsVy0yLUlqbGNNZEE4Vi1BR095dWNV0gH6AUFVX3lxTE5jUTBqaThOa2YwZndRZjhrU3dkZ0FoSlZ6ZG1PQlU3eUFhT2dBSlFHZTh4YW9UN21RbGo0VWFjcFRCaWNaakcwNHlWZXFiZjkyalM5UEg5QlJZSmtHU01ldlYwMGZaeEhueTJXMzdGMkV4NmNLaDlfcnhnclZabk5ibjBYTUVRVmZGM1oyZlB4enZVUW9wQXlHTG1WY0NfMkQ2MmoyUmw3WEY2WlNXUGRveHFodXE5R0xYLVJnYnJnNEVUYnJGb1FtRVRtSW85Z2QwaUtITUZubTRyc2o0cGZ3YkY0ZVJnVEVjNUxDVDNMYURhbUY1UHFFOGc?oc=5",
+        "published": "Fri, 05 Dec 2025 04:38:01 GMT",
+        "clean_title": "Woman dies after being attacked by dog",
+        "crazy_score": 3
+    },
+    {
+        "source_query": "Cairns Post",
+        "title": "Woman arrested in dramatic footchase after allegedly assaulting shop manager",
+        "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPaTlHTkNBaHh1X1ZWYzBFY0JYaUpwSGgwVFh4cElWX2R1T1hEekd3NmtSdEpQLXAtTnVEejFGR1VJVVBuRklKLVJ3bFNSSGhEbXFudHUwVUItNXloM3JTVVBvZkQtYllEWmh4R3hlcjNfaEVxN3IwWWoyQU9IaUhGbHAzWjBOQmxiYlFUREpMRVJDZGZCcUxsQVdrNzZlU2UyYmxXQktJeWJ0OWRBNFdXMkgtLUlaRXAxSHFCT2FpTERQaHk0c3h5ajlLamg?oc=5",
+        "published": "Wed, 03 Dec 2025 03:04:00 GMT",
+        "clean_title": "Woman arrested in dramatic footchase after allegedly assaulting shop manager",
+        "crazy_score": 2
+    },
+    {
+        "source_query": "Townsville Bulletin",
+        "title": "A humble hero: Townsville\u2019s first Woman of Year dies",
+        "link": "https://news.google.com/rss/articles/CBMiggJBVV95cUxQcjEtaVNFaGNJSmVrRVZ3M0hOUFJ1RkgtMmRHNVEyS05ONmlIUWJnT0hGeGZ6dnZoR0ZBUjV4eGY3UnlHckluSXJHUEhWQlRUbW5uT2tNSXFaWFZ4VDNlRzNlZW9jUjBOZXNab2VGdk8wZzVTS1h5STFNdlJabkMtb0p4OVllZlloXzlneGJfU1M2MUVjUHRTNVZjZEZ2MVc3VHdTaTRERUp1UEZiQU9KaTQ1Sm5GTjJUREYyaUdvTDAzdmlGRGxvOFR3NVVHYXFnZ1VEN3VfMWQtSS1BSWpwMFdsU2lHWmNBSlVSeVlsMjc1bEhNWS1SYUNRYUJxMTZHQ1HSAYcCQVVfeXFMT2tDOGJkeWJzLS14VFo0V1ctQ3QtUDNadHZ1ak1odHg4aDdGU1IyVzNoVHc1ejZjM1NjLWpsVkJfZEhJNnNKMFlwOWcxc3ZGdEtSMjVTNzQ3U2E4SnY0Ny1NanRISk55LURUem9GQ3NFVXhqdkUybFM5SW9IcTdjSjlKLXRlT0dMNHdkc2lSLWZud3g3alFudm5lbXQzRjRWdXlFa2x4UElQYk5NSHlXTjA5T2tVOVBHZGFfQVdfM3RRd2N1d1l2TE5pN2NzZmlOUnQ5U2tVMkFzODlybF9UejR6RVUzWXc5aXV6amVCTno0aUc2SE1SNnRELWZBTGFIQnU5R2pvbzA?oc=5",
+        "published": "Fri, 28 Nov 2025 19:07:30 GMT",
+        "clean_title": "A humble hero: Townsville\u2019s first Woman of Year dies",
+        "crazy_score": 2
+    },
+    {
+        "source_query": "Townsville Bulletin",
+        "title": "Man fighting for life after shooting",
+        "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNdWUwNFBDWTBEZ1czOVVLdTZfNW45bHVzYjBpc2VySzNsSktDNzZfY2VlMkgxZFBPTjlKa085LVgwUW9ROXUxaE96d0tnWEp6X01BbGpOTFY3LWpRcl9SRHQ3NFRKWkdBN1BXTGgtSEoxeVlENy1vOGJySFJXZmdhV29Hd1JXWWExd25rcDJjMElKMGdzUlZYU0VIQmpQdk92MjVTNnBVSUcxdDZMTnFVMkNQZXZNT2VPWm5ydVg5RjE5NWgtMjBGY2d3VGk0dzFuWkFsazVtTkZjMU9MeGk1NXFVeThjb29RNXVCS1h3TjRqS003Q3Bz0gH8AUFVX3lxTFA4b3oycEJyNTl3RUVoSThkaWtjRzZobTBHR0ZmTmdlaFpBdlJ2SFU1VWU4aHpRNUhWLVdUSXdQRGpiTmNPUXhYWjBIN0xiYmVJdVMwS3AzdjJEaXI5NWoyMXh0QWR4S3J4S2t4MXB0YkhmWlVvQlM4TFVYT3AyMGp1VUJnM2FxYXRuTU9KSGFuOHpmLUU2RmhGNDlVcGI2dk1rY0JwMUhRdFJON2JUa084eGdFR2s5Vkd4aDI0aHdnUkNaTUtka0RhREUtbkIyZTlneFVGRG1KWTJxa1RnS1JwTmp3eThFclE1TkxDdFcxNm0xZmtOWUNRbTNsQg?oc=5",
+        "published": "Thu, 04 Dec 2025 20:48:02 GMT",
+        "clean_title": "Man fighting for life after shooting",
+        "crazy_score": 2
+    },
+    {
+        "source_query": "Gold Coast Bulletin",
+        "title": "Stalker sent 850 communications to ex, threatened to publish nudes",
+        "link": "https://news.google.com/rss/articles/CBMisAJBVV95cUxOVEUyd253R083ODFZUWsxTlNNUnpYVEw4NC1QMi15MXJHVGVzUE40UlFqdmVlR3E0RDcyMWdfYklBeXpxWldxR3E3c2E5T1V5ODBKVDZ1dVcwTlNxNDZQX25zbWdoUDBlc0Y1Wnd3TlVpREw1SEZDR3BJNEI5bEJQRTRXUGJxQmFaUTVaaUlibWxEQVpVSmxjSUVxWGhzMXFLOG1MeXY5bXVoZFpjcUh3RTRWUFJheHY5cDBubFRxRm8tbm5FRG1PcUNCaWxOcXNGU245bVNtQTgxSG1jNVEtZDl4YW41Um83VUR4T0tlNE80eGh6dFA4c2JNLVpSWEdDVUtjMGRzR01sTk92bjFvbVZSaUxXQ3hfeHRsT1pSaEJoVTVQdUEycW5FNjQzaWU1?oc=5",
+        "published": "Wed, 03 Dec 2025 00:01:08 GMT",
+        "clean_title": "Stalker sent 850 communications to ex, threatened to publish nudes",
+        "crazy_score": 2
+    },
+    {
+        "source_query": "Gold Coast Bulletin",
+        "title": "\u2018Exposing himself to children\u2019: Claims \u2018completely naked\u2019 man near school",
+        "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOWmxPMjgxUGZTNmluZ2dDQlVCRWZoekVVTjVfQllIOXVLVHJXMmRkVkxCVXpvVENNOW93Zy1mTnpYaUE3SnVPMUp3MThzdmxtREZfQ3dvVHljckxrcTVJRUNqN3phZHBiOTAzUTNxN1pNczVmcGFTZFBybXlUakxPQ0tUUlJGZEFlazNmSUtTcnZ0QTMybkF2M29wNGlMY284bjRCR0JteXRHTU1qdGl0MXRXZ3BHRmlWNDE2UldFNkExNmxKb1FhRFFxYWR4Wk5ReWlrSHBsYWg?oc=5",
+        "published": "Wed, 03 Dec 2025 02:03:13 GMT",
+        "clean_title": "\u2018Exposing himself to children\u2019: Claims \u2018completely naked\u2019 man near school",
+        "crazy_score": 2
+    },
+    {
+        "source_query": "Northern Territory News",
+        "title": "Lockdown lifted at Alice Springs school as woman arrested, cops say",
+        "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxOOU5DVmxiOTg4YWttMjVoTFRPZ2JDWklDR2todWdsNXV5dmhSLWFET2xHMk5vTlE4T19RU3AtTGxDeWgyNmFMdEFFSUFfb1E2d2NHMzM2dmR4cEpBMm5remkyR19MUEJxUXFsbmJQX1hiS3ZfNHJYcDN6VXJVdW1TdkRNSlpWU0ZFYThBMEdGMFFtWDNjaW1MWUVtZzFsVDNrX3A4bHRpS2dOMlVDSERJRDVfeEZDZTE5dWxKVlhWYmhBTnJmdDA3THA5U3c5RTY3T2lRbnd6Z3FNRWNPTzcxUWJpSE1IRVNkM0tXalNvSjEwMXk0WjZibGtXVQ?oc=5",
+        "published": "Thu, 04 Dec 2025 14:45:48 GMT",
+        "clean_title": "Lockdown lifted at Alice Springs school as woman arrested, cops say",
+        "crazy_score": 2
+    },
+    {
+        "source_query": "Northern Territory News",
+        "title": "\u2018Touched so many lives\u2019: 8-ball player remembered after tragic crash death",
+        "link": "https://news.google.com/rss/articles/CBMijAJBVV95cUxPYUF4NHJ4YW5uUm56ZmI0TEMyemVRUUdueWtDTGlYcHhXSUxkTVFWb0JzUFJkVkp0VVJOR1Z4MW5peEo3czg2UUNTcFNfb09BRmdfNkVkVGFRX1FoSjViQ3dlcjJLb1JrWjRIS1ZEMTRPTEFYb0k5OUVOcU9ST3lRTV85aUdLT0dOQmZuRlFObEJVVXlCMElaLTNxZTdsUWl2NXR4R0ZKNk8xWnVTV0RaNnVtaEZpWmhhbW5CakthZVVFTWJWUzBFNkdHbXZsbk5FQWNjLUtqQnpMN3B0ODl3Z25xYUgyaE51SGNGVjQ2RmdhNnU0dGpjNmw3Z3VJZVBuMVZWYXdZdkUzdGRu?oc=5",
+        "published": "Sat, 29 Nov 2025 14:30:00 GMT",
+        "clean_title": "\u2018Touched so many lives\u2019: 8-ball player remembered after tragic crash death",
+        "crazy_score": 2
+    },
+    {
+        "source_query": "Northern Territory News",
+        "title": "Man arrested for allegedly ramming minibus which struck woman in Alice: Cops",
+        "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPbkQ4UUl0VzhXZWE4YjlNbDlNSE1Kc2xrZ0QwXzV4MGNqU18wdFEwNDg1bVhjanFEWHgwVExWR2ZLY1ZmV1lGWlNIWmVVSWRKOUNuNlp5ODQ0NVR3NGYtZ1U3MjBlVjdZT19BQXFHb1hReFlnWnM4d2NQalRucWExMDVoLU14RHNFY3ZYWUJSbmNaSUtHMTNfYzhNWGpTblNORExMNmlMQkx0V0Q4TlM3SlJFWVBCeHQ5OUIwT0hDMHgzVEl0dUUwOXozTERjaC1FN2c2dlkzUzhROUJ2bnpxc1hzYnU4ZldRSjFudmRuU0JPelJ1VVprcXdtbw?oc=5",
+        "published": "Tue, 02 Dec 2025 14:48:11 GMT",
+        "clean_title": "Man arrested for allegedly ramming minibus which struck woman in Alice: Cops",
+        "crazy_score": 2
     },
     {
         "source_query": "site:ntnews.com.au",
-        "title": "Piastri breaks pole drought in Qatar - NT News",
-        "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOV3M1aXhYRkJNYkhyOE1FWW1LWE9oaUFmQXRtbW9UZEtFbTU1cjJiU3k1bG53MTVvNEJrTjI1Q25mcDlHRmtVOGpEbWYzSkp5Z3dlUGVVY25wdXFWanU5VVdLb2hXNTh2bXZZcGwxM3VjOU5IN0VIZW94R0lteThaajZmbjU0VERrdHBSRFR6T2xwbGU1bzZmTnRjclMtVk1VbnZFcm95enNLY2ZiQXlrSGhVakpheGlJWlE?oc=5",
-        "published": "Sat, 29 Nov 2025 00:55:38 GMT",
-        "clean_title": "Piastri breaks pole drought in Qatar"
+        "title": "Today\u2019s News Headlines: Victoria government to cut 1,000 public jobs",
+        "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNRmFsZjJ4eEU5YWd0Wll3TFJUU1l4cnNFejJ6Q3lVR0ozcWlQSVFGTHF0RDZpLTgxLTVEUVJFNVQyUmZyRHlzYVN4UE1YcVVWZ04tQ1pxUHlZVjdDYkVpY1hQZnFNSkx3TVRvQW0yRnJmcDEwVWtranAtWG03M0kwb1NGMFE2TVhFaThJR1NqT3U2OXdWeDdPa1JORzdJdXQ1NkdGdWp1UUVVLU1pbVdYcHY5OVdxcWlUTUxtS0tfNXhtVW5RaHhqNndhdk4tSEFfU25GZ1MxcmN4ejNB?oc=5",
+        "published": "Thu, 04 Dec 2025 02:42:48 GMT",
+        "clean_title": "Today\u2019s News Headlines: Victoria government to cut 1,000 public jobs",
+        "crazy_score": 1
     },
     {
         "source_query": "site:ntnews.com.au",
-        "title": "Robbie Williams \u2018super proud\u2019 of daughter Teddy who stars in Tinsel Town - NT News",
-        "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOdHlNVlExZlcxYXFQa09xQ1hqVGk3Y0FReVlDRVBLM0Z1akFUQUVUZG1ZdS1QOXoxV3JxbVp2Y3lod2pvcEdoZ2s3a040N3o0ZkxRU0lld3VoTTNYNF81MjZmVkNzdGg4QTlfamNtSFk1S0VEMi0yOFNNMjg2V2lRSkJSUldwVHQtSER4aGdsSHZGX3FTT3VnRU1McHhtVHNiTHFFeWxuY1dtaFpkTkpfZEx1UXo2YW1IWkx3NmZ4eXNvM2NzYUlKQnMtY0lNdXFhc2w4S05qaWpDNVRPVUtrXzltTQ?oc=5",
-        "published": "Fri, 28 Nov 2025 11:08:08 GMT",
-        "clean_title": "Robbie Williams \u2018super proud\u2019 of daughter Teddy who stars in Tinsel Town"
+        "title": "Mystery swirls at Gabba over Aussie team",
+        "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPNlFFT0tjQnJ0bjR6b2hWdlY0cUhua1ZoN193dTYxTVJCTlZqbU1uUHI2dWR4SUkyWTlpejJPb21jWVpVNGYtUTIwakVlMDF4c2Q4OWtCT1AxNEd1ZlcwUC1FOEYtaExzbGd4Z2NHUDNBN3UtX2tVQTh1MV9hVEppQ1ZiWU5ORzF5amZqMktIYmZ1bm9vd1ZueU8yVGV4SXI3Sy14R2NYR3p1MkxfUk42dlpMemVZZTRuZWNz?oc=5",
+        "published": "Wed, 03 Dec 2025 21:53:09 GMT",
+        "clean_title": "Mystery swirls at Gabba over Aussie team",
+        "crazy_score": 1
     },
     {
         "source_query": "site:ntnews.com.au",
-        "title": "The Whiff & The Miracle \u2013 Rory Reacts - NT News",
-        "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQWEpvTmNKTzdpSWdVYllabWhVYkZ4MmJta091Tk9SeDhqUFI5VEl3VEdmOUpEOHI0LVo0ZVNsWFBrVkFiZkdXcW9GX19RMUlFQ3J3MDF5aDg5RzI0Z2cwVVVaLU40cENHTUQwdFpFdXRiVklORnRJeDFjWVdzbjRjUEVNVGJNQ0V0MjB4U2ozbW5SVC1xZVVCQW9PMjl2NnlQQ29jblV0WENzVHZvRUE?oc=5",
-        "published": "Fri, 05 Dec 2025 06:45:43 GMT",
-        "clean_title": "The Whiff & The Miracle \u2013 Rory Reacts"
+        "title": "Parents furious after school plans to install only gender-neutral toilets",
+        "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOQmNFTVpkWlJicnNKdUR1MkFHMUhtVlVSUXdoTFhhWFU5Nlc4Q2tzS05tNWtGa2U3cEx1czZEZGxuMWdoR0NBMVY3Z3ppTENjbVp5c0o3ZVd5S1FsbjlHT0dES2tpbm1HdTM2TE1KeTQ3OGdqOUU1NXQ3OVg4R0ZiNDNFNWFES2pVaFJoZ0x0NG9QNlpoWFRTdVJ1WWVfNHdHRmZ0RnZ3YlhDcmdTdWVvY1BZZDlEMUNUTUgxVDR1dVRnQ2xYdXYyRURFN3UwQTZPek9xYnl0emNrX3dlTFYyNnZmOHB4QQ?oc=5",
+        "published": "Wed, 03 Dec 2025 20:00:13 GMT",
+        "clean_title": "Parents furious after school plans to install only gender-neutral toilets",
+        "crazy_score": 1
     },
     {
         "source_query": "site:ntnews.com.au",
-        "title": "Rory has an air swing! - NT News",
-        "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQeExaR0N1ZHltdUU5WXdhcDZQUHhSX1V5c0dtVUY2cTJsSDc3MHNJM29VR0xvd1ExdXU1b0lhdDg3NU9WZW5PczFTbjBvUGdFdTZvUExFQ0dVSEx5eUtPVUF3Z2RBX0V2N3RDd0RIRG1kU2RscXRURGs5UjI5NjhKUVlPUWg4SUgtTzhQOE9NaUIzUGV5NTFhQzNIbnEyUQ?oc=5",
-        "published": "Fri, 05 Dec 2025 07:28:26 GMT",
-        "clean_title": "Rory has an air swing!"
+        "title": "Republican victory in Tennessee special election sparks bipartisan \u2018concern\u2019",
+        "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOQnBDT2wyLUxmQzJncXZRZWltMDM3a0VyV2x0MEJxc1lrSVVadlQyaEFnUE1adFVNVnBTdkZWUEVVcjJiZVNfa3FZUzlYdG84bkttaHJUTVBuWGMzUWg2NW04NWE4T0pQbXNtc25fMVdBaHNrMW5URk81cmtMSUliaVVKUlJRTjJpNXVhbjRKR3Jfd2xsMno4UXF5OTdkRzI2aEtWb3JWdVZXcFkwU0VpRmc1RzRmZWl5R1VtalRhNm5hNFJPQURnYXJWSi1QQXNFRXhUdzlPdjNXcG9MaUV3Y2hVVlBDcWR5?oc=5",
+        "published": "Thu, 04 Dec 2025 06:00:49 GMT",
+        "clean_title": "Republican victory in Tennessee special election sparks bipartisan \u2018concern\u2019",
+        "crazy_score": 1
     },
     {
-        "source_query": "Manly Observer",
-        "title": "This week\u2019s development application round up - Manly Observer",
-        "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFA1clE2RnZpNDBFdkZVUS1SZWIxakExaFJNWXJYZnhQZDJoRFJCcExwZ3Vtb3FjMFh6VW9mQWdKRk5BRlk0UG1HSm9sWnBsa1hFMkFsWkJfSXlObTJqNWhhTHdoZmludi1MS1FjX1hVSV9HSndjb3RMR1FJVQ?oc=5",
-        "published": "Thu, 04 Dec 2025 23:12:49 GMT",
-        "clean_title": "This week\u2019s development application round up"
+        "source_query": "site:ntnews.com.au",
+        "title": "Jessie J surprises travellers with performance at London train station",
+        "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOREpYZmM5LTNYZHQza0lCb2g4MVhwSFgxclZGdUNqdHZ0bkk1MEJUV0hrbHQwbjR4MUtGQXRrZ2M1eHB5bXJMRzZaTW9HWW5acEdsZWlkVkxyQzFuLWpsQWV0aVl6N1R2TjNGeXFOTWk4WjFWRkVHT3VoTS1QMXBZNnktVkpURDhZalNGRnJKSFFxTGxkOEJuMGZ1aUllN2V0dUpJdmFIZ1BsMldTUTZIMGRKaDBVXzFkRm5UeWd5X2toOVAwWUxzX1VTTkdfTllub2lDWXVYWFhweEZ4cGdEa2pnMA?oc=5",
+        "published": "Tue, 02 Dec 2025 17:50:41 GMT",
+        "clean_title": "Jessie J surprises travellers with performance at London train station",
+        "crazy_score": 1
     },
     {
-        "source_query": "Manly Observer",
-        "title": "Man claiming to be \"John Wick\" charged for Narrabeen police pursuit - Manly Observer",
-        "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPQkJVUzZ3WVBLUXd6RXU0UXhVdTBKWHRxdkJBUzN6SEFQbG5MM0dYaEZad3RjY0h6bXo0Z196T2p1dnIzVEhMVkxEczR6YmZsa0RxU3kzVG1KM0ZSWnFtSTBNNHlQczBqUlROZURVN3ozNWo5OUoxQnpuRHRrUnJLcUtaMERqT21JekJ6UmFQRFVIcTlVczh0aHdmOA?oc=5",
-        "published": "Mon, 01 Dec 2025 15:36:25 GMT",
-        "clean_title": "Man claiming to be \"John Wick\" charged for Narrabeen police pursuit"
-    },
-    {
-        "source_query": "Manly Observer",
-        "title": "E-bike rider critical after collision with truck at Mona Vale - Manly Observer",
-        "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPd2NfLUh4UG1hSW9zVUtISmtQSEtLLTVTOUppeVFHemlEWFBrUXhnNjdaZUJuaHFKcUZCTVFwMmtMeUpib19RN0xPTW9OWURXVThJMk82NjMwSHBfR3pia2Y3N2VxWWgzRlJIaWdvNjlvUVFtWjJiMG1Jb2FxcS1IUnhkaDBXMngxV1FRVHBzQWw2TkFqQmc?oc=5",
-        "published": "Thu, 04 Dec 2025 05:32:12 GMT",
-        "clean_title": "E-bike rider critical after collision with truck at Mona Vale"
-    },
-    {
-        "source_query": "Manly Observer",
-        "title": "Felons open microbrewery and Barrel Room at Manly Wharf - What it means for the Beaches - Manly Observer",
-        "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQc3RFQW9aZFpkdGYyUWpKNk9Od0RvUXVoUTUyaTdvVXVTeHJ0S0lqcTlsdExWNkVTOWNmbHBjbzk3c0JITXRhVTFjaV9CaG5zSVoyazFXb1dXWURTU0pUVC1LajJLSDFxRTFfeVBQMTRtWkQ5NjVVRTlWXzhoUDNEdVVpTUdwSUJTb2M3UUhLaUs1SXliaElhYmtBamNIN1Vtb1F2d0RvSXhNWm53c2Z5UFhSZTFOUQ?oc=5",
-        "published": "Wed, 03 Dec 2025 08:33:55 GMT",
-        "clean_title": "Felons open microbrewery and Barrel Room at Manly Wharf"
-    },
-    {
-        "source_query": "Manly Observer",
-        "title": "$11 million Dee Why development approved and more in this week\u2019s DA Round Up - Manly Observer",
-        "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNNEtEWkNZWUJ4enFhanFzN1FXbmVLNTFoZVVQVG5zR2RqSGNHRFd4Tm5MQWx4cUdMNnllVml2N0ZBUzNDTXVVRU94SmdnRzd0QVFIaU5qTzlwWEVyUUViQk53THZybVFCd0FoX3VvM3lVOU9vd1NSd2dOdFU0Y3M3QzJrcC1XZDZCVl9sTUFQZndJVDFjY2xfZUpMOS1qNFEzcmtGbFo3Zw?oc=5",
-        "published": "Wed, 03 Dec 2025 10:32:30 GMT",
-        "clean_title": "$11 million Dee Why development approved and more in this week\u2019s DA Round Up"
-    },
-    {
-        "source_query": "Northern Beaches Advocate",
-        "title": "Second fire deemed deliberate - Northern Beaches Advocate",
-        "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQSlZtUzg1NXZfNS1od2xPcUFXel9IdnNra1hYdi1uQUJ2Wk9sZW45NVFSdXA3dXpER183RFhLQjdmQnZzLVlTRUpQNjY4T3ExdHl3V3RtZGc1OGc0eXR3azg2eS1Vc2N1YS1QcDdYSkx4UHVQT3JtY0xBM3UyeVM3RVU2QmlLRDNBbTg1LQ?oc=5",
-        "published": "Fri, 05 Dec 2025 04:05:48 GMT",
-        "clean_title": "Second fire deemed deliberate"
-    },
-    {
-        "source_query": "Northern Beaches Advocate",
-        "title": "Parkway collision causes traffic jam - Northern Beaches Advocate",
-        "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPcDY5UFpxcWhUcGh2YUd6Y3NrRmZxMy1JTTJZMVoybk5ESmd3TmZvdjF5bk9jNFFCMlU2N0NhOEJPQlJJc0pieXJKNE9KbG5lSjA3TkRYb0k3TUo5Q0lQU3RPQThyTkFNVlJPR1ZfOHFzSHlrd1pZU0k3a3gyaDF3R0RMdzQ3NjhsUFFWdE12ejg1UVhVMFE?oc=5",
-        "published": "Fri, 05 Dec 2025 07:33:23 GMT",
-        "clean_title": "Parkway collision causes traffic jam"
-    },
-    {
-        "source_query": "Northern Beaches Advocate",
-        "title": "E-bike rider critically injured - Northern Beaches Advocate",
-        "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOSlBMRFYtS2NrOURCWHZlVkxMVWlYYjZMWWpaUDFHWUF0ZHAyRXNjc1ByRFpKYldxLVBTVWZ6QlgteWNFLW9VUlJpTi1PRlUtaGRZX1F0V2RMTjk0WTZBaEVrai1LemJfRHo2aWdPV0hmVkdMYjhIMmpMUUx1dVd5ZEJFU0c0WDNOanhDdEEwRQ?oc=5",
-        "published": "Fri, 05 Dec 2025 02:50:50 GMT",
-        "clean_title": "E-bike rider critically injured"
-    },
-    {
-        "source_query": "Northern Beaches Advocate",
-        "title": "Elderly driver flown to hospital - Northern Beaches Advocate",
-        "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQbU0ySWJjMWZuSTRRZmhkTGJfaHJ0RFMtaUllb1NSWlgzSGsyaG1VQXh4QnhKbWM0bExmamZHaEx2YUlmQ3NzY3hTMzZXYjJTY0tFSW1wZ2lWTXZqZC1aQ09XVU5LNFlGMkZMZTg2c0txdTJSLV9kdnFCV1BwM2lTLU5NOWp5WEQwVENYS2JWNE4?oc=5",
-        "published": "Tue, 02 Dec 2025 04:47:45 GMT",
-        "clean_title": "Elderly driver flown to hospital"
-    },
-    {
-        "source_query": "Northern Beaches Advocate",
-        "title": "Mowed down at Mona Vale - Northern Beaches Advocate",
-        "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNbFowdm12ZFBjV0UtM2twdGZadFEtdVZzajk0YThwS0IyMGdKTkdIN0c5bk5TNnZMQ09ncU83VU1FZ3dKTjEwVE9FWFBSZGxYZlQtbkMxNVpMQVByNjlvd0VCN3draDktNXJEdEtSYXJ0UzYtQk1HTy0xalJ2UV9wSWxZS2M?oc=5",
-        "published": "Wed, 03 Dec 2025 08:03:54 GMT",
-        "clean_title": "Mowed down at Mona Vale"
+        "source_query": "site:ntnews.com.au",
+        "title": "Donald Trump\u2019s bromance with Elon Musk has officially been patched up",
+        "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNQWp0bW9hVDRSd0FlSUx6dzIzVWRtM2VFSGxFVll4SG14THBRMkJMaDJWRWhaM2FUdjJaek01dG1mVmQ1T0IwU2JOWnN2MzNabG1sdXJiZHRzTFJoSGVlcl9qQXd6ckFOVGlVaEdQX2pqR3JnU3g2WWxwVXB4bEUyMzlpS05CSjB2Qzgzam5HaEVXc2dDZVNkSHNkaUN3bDFvRDVSSUZTTVlfZEZWLW1aUDBHMTJNaGhIb0trVVpqWjVyZFFCUkFLX2RHWkJmUm1MeGpwTzlaYUo1elh5?oc=5",
+        "published": "Wed, 03 Dec 2025 04:28:20 GMT",
+        "clean_title": "Donald Trump\u2019s bromance with Elon Musk has officially been patched up",
+        "crazy_score": 1
     }
 ]

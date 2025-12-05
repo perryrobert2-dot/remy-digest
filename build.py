@@ -215,7 +215,8 @@ def main():
     nav_links = ""
     for sec in sorted(sections):
         display_name = get_display_name(sec)
-        nav_links += f'<a href="{sec}.html" class="nav-item">{display_name}</a>\n'
+        # CRITICAL FIX: .lower() forces the filename to be lowercase
+        nav_links += f'<a href="{sec.lower()}.html" class="nav-item">{display_name}</a>\n'
 
     idx_content = "".join([generate_story_html(s, staff) for s in stories if s.get('featured')])
     if not idx_content: idx_content = "<p>No featured stories today.</p>"
@@ -237,7 +238,8 @@ def main():
             sec_content = "".join([generate_story_html(s, staff) for s in sec_stories])
         
         display_name = get_display_name(sec)
-        with open(os.path.join(OUTPUT_DIR, f'{sec}.html'), 'w') as f:
+        # CRITICAL FIX: .lower() forces the filename to be lowercase
+        with open(os.path.join(OUTPUT_DIR, f'{sec.lower()}.html'), 'w') as f:
             f.write(get_html_template(display_name, nav_links, sec_content))
 
     print("The Remy Digest is published.")
