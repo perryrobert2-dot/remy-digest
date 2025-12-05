@@ -1,0 +1,22 @@
+# Secrets and Keys (CRITICAL)
+keys.json
+.env
+
+# Python compilation junk
+__pycache__/
+*.py[cod]
+*.so
+
+# Environments
+venv/
+env/
+.venv/
+
+# Editor config
+.vscode/
+.idea/
+
+# Distribution / Builds
+build/
+dist/
+*.spec
