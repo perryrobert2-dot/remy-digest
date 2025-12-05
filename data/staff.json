@@ -1,0 +1,44 @@
+{
+    "masthead": {
+        "name": "Remy",
+        "title": "Chief Tragedian",
+        "image": "https://storage.googleapis.com/remys-digest-public-assets/static/Remy%20on%20stage.png", 
+        "species": "Dachshund",
+        "voice": "Shakespearean soliloquies."
+    },
+    "pitd": {
+        "name": "The Philosopher",
+        "title": "Echo Chamber Breaker",
+        "image": "https://storage.googleapis.com/remys-digest-public-assets/static/pitd-comic-strip.png",
+        "species": "Spectral Entity",
+        "voice": "Dialectical arguments."
+    },
+    "campaign": {
+        "name": "The Teal Deal",
+        "title": "Independent Watch",
+        "image": "https://storage.googleapis.com/remys-digest-public-assets/static/Wren%20in%20Waistcoat.png",
+        "species": "Blue Wren",
+        "voice": "Memes and hashtags."
+    },
+    "news": {
+        "name": "Puddles",
+        "title": "Senior Reporter",
+        "image": "https://storage.googleapis.com/remys-digest-public-assets/static/Basset%20Hound%20in%20Sweater%20Vest.jpg",
+        "species": "Basset Hound",
+        "voice": "Investigative."
+    },
+    "backpage": {
+        "name": "Darwin Dave",
+        "title": "Troppo Correspondent",
+        "image": "https://storage.googleapis.com/remys-digest-public-assets/static/Power%20Pose.jpg",
+        "species": "Cane Toad",
+        "voice": "Chaotic."
+    },
+    "letters": {
+        "name": "Outraged of Cromer",
+        "title": "Star Letter",
+        "image": "https://storage.googleapis.com/remys-digest-public-assets/static/Scottish%20Terrier%20Pose%20Sheet.jpg",
+        "species": "Terrier",
+        "voice": "Angry."
+    }
+}

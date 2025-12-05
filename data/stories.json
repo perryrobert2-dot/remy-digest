@@ -1,0 +1,57 @@
+[
+    {
+        "section": "masthead",
+        "writer_key": "masthead",
+        "headline": "A Tragic Overture: The Dance of Fate on Mona Vale's Asphalt Stage",
+        "subtext": "Another soul caught in the merciless machinations of chance, as two wheels meet four on the unforgiving bitumen.",
+        "body": "Hark! What sorrow doth assail our gentle borough? A rider, once free upon electric steed, now lies in fate's cruel embrace, ensnared by the steel behemoth of the thoroughfare. O, Mona Vale, thy roads, once pathways of peace, now bear witness to such dire scenes! Is it the haste of our days, the clamour of commerce, or merely the capricious hand of destiny that weaves these threads of woe? The heart aches, the spirit questions, as we ponder the fleeting fragility of life's vibrant journey, so easily rent asunder by an instant's misstep. A silent elegy plays on the wind, a somber chord struck for the fallen, a stark reminder of the peril that lurks beneath the mundane hum of existence. Verily, we are but players on a stage, and sometimes, the curtain falls too soon.",
+        "visual_prompt": "A mangled e-bike lies on its side next to a large, imposing truck on a busy road at Mona Vale. Skid marks are visible on the asphalt. Anthropomorphic animal onlookers, including a concerned Echidna and a pair of Bin Chickens, are gathered behind a temporary barrier.",
+        "format": "soliloquy",
+        "featured": true,
+        "image": "images/ATragicOvertureTheDa_1764927971.png"
+    },
+    {
+        "section": "campaign",
+        "writer_key": "campaign",
+        "headline": "Dee Why Development: Koala Council Says 'Nap Time' on Local Concerns?",
+        "subtext": "Another $11 million development approved, despite local squawks. Time for a change of tune?",
+        "body": "The Koala-run council has done it again! Another massive development in Dee Why sails through approval, leaving local Echidnas bristling and Cockatoos squawking mad. It seems our 'representatives' are more interested in their eucalyptus siestas than listening to the community. Is anyone else tired of these concrete jungles popping up while our green spaces dwindle? It's time to shake up the gum trees and elect voices who actually care about *our* burrows, not just their own plush tree-houses. #VoteIndependent #LocalVoice #DeeWhyDeservesBetter",
+        "visual_prompt": "A meme showing a very sleepy, anthropomorphic Koala wearing a construction hard hat, snoring soundly next to a stack of building plans. In the background, a large, modern apartment building is being erected, dwarfing smaller, traditional animal burrows. Hashtags like '#KoalaCouncil' and '#DeeWhyDeservesBetter' float around the image.",
+        "format": "meme",
+        "featured": true,
+        "image": "images/DeeWhyDevelopmentKoa_1764927992.png"
+    },
+    {
+        "section": "news",
+        "writer_key": "news",
+        "headline": "Mysterious Second Fire Raises Alarm in Local Burrow Community",
+        "subtext": "Investigators probe suspicious blaze, community on edge after consecutive deliberate acts.",
+        "body": "The community is on high alert after a second fire in as many weeks has been deemed deliberate by authorities. The recent blaze, which gutted an abandoned shed near the communal foraging grounds, follows a similar incident last Tuesday. While no injuries have been reported, the incidents have sparked widespread concern among local Wombats and Echidnas. 'It's unsettling,' stated a local Echidna resident, 'to think someone is intentionally setting fires in our neighbourhood.' Bin Chicken investigators are sifting through the charred remains, seeking clues to the identity of the arsonist. Police advise residents to remain vigilant and report any suspicious activity.",
+        "visual_prompt": "A smouldering, partially collapsed shed with charred timbers, surrounded by a cordon. Several anthropomorphic Bin Chickens in fire marshall hats are meticulously sifting through debris, their beaks holding small tools. A concerned Wombat and a wary Echidna watch from a distance.",
+        "format": "standard",
+        "featured": false,
+        "image": "images/MysteriousSecondFire_1764928012.png"
+    },
+    {
+        "section": "backpage",
+        "writer_key": "backpage",
+        "headline": "Narrabeen Nutjob Claims 'John Wick' Identity During Wild Pursuit",
+        "subtext": "Local Cane Toad leads police on bizarre chase, insisting he's a legendary assassin's relative.",
+        "body": "In a truly baffling incident, a local Cane Toad, whose identity remains undisclosed, was apprehended after a high-speed pursuit through Narrabeen, claiming to be a distant relative of the famed anthropomorphic assassin, 'John Wick'. The chase, which involved several patrol vehicles and left a trail of confused Cockatoos in its wake, ended when the erratic amphibian veered into a local pond. Upon apprehension, the Cane Toad reportedly croaked, 'You don't understand, they took my little green pencil! The one I used to write poetry!' Darwin Dave reports from the front lines of weirdness: 'This fella was hopped up on something, or just plain bonkers. Even by our standards, that's a new level of trop-crazy. Good on the Bin Chicken traffic cops for corralling him before he caused any real mayhem!'",
+        "visual_prompt": "A frantic anthropomorphic Cane Toad in a tiny, toy car speeding away from two larger police cars driven by serious-looking Bin Chickens, through a suburban street lined with gum trees. A group of surprised Cockatoos are squawking loudly from a power line.",
+        "format": "standard",
+        "featured": false,
+        "image": "images/NarrabeenNutjobClaim_1764928032.png"
+    },
+    {
+        "section": "letters",
+        "writer_key": "letters",
+        "headline": "Outraged: Development Applications a Drain on Our Community!",
+        "subtext": "A local resident expresses frustration over the constant stream of new developments and lack of community consultation.",
+        "body": "Dear Remy, I write to you, practically frothing at the mouth, after yet another week's 'Development Application Round Up'. It seems every time I open your esteemed publication, there's a new monstrosity being proposed for our once-peaceful burrows! Where is the consultation? Where are the voices of us, the long-suffering Echidnas who have called this place home for generations? The Koala council simply rubber-stamps everything, ignoring the concerns about traffic, overpopulation, and the destruction of our precious green spaces. It's an absolute outrage! We need more than just a list of new buildings; we need action! We need a council that actually listens, not just snores through meetings. Something MUST be done! Sincerely, Outraged of Cromer.",
+        "visual_prompt": "An anthropomorphic Echidna looking utterly furious, holding a rolled-up newspaper in one spiky paw. In the background, a new, imposing apartment building looms over a small, traditional animal burrow, casting a long shadow.",
+        "format": "standard",
+        "featured": false,
+        "image": "images/OutragedDevelopmentA_1764928055.png"
+    }
+]
