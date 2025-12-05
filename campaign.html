@@ -1,0 +1,136 @@
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>The Teal Deal | The Remy Digest</title>
+        <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,700;1,300&family=UnifrakturMaguntia&family=Anton&family=Patrick+Hand&display=swap" rel="stylesheet">
+        
+        <style>
+            body { font-family: 'Merriweather', serif; background-color: #F5F1E6; color: #1a1a1a; margin: 0; padding: 0; }
+            
+            /* HEADER STYLES */
+            header { 
+                padding: 20px; 
+                border-bottom: 3px double #1a1a1a; 
+                background-color: #F5F1E6; 
+                display: flex; 
+                align-items: center; 
+                justify-content: center;
+                gap: 20px;
+            }
+            .header-logo { 
+                height: 120px; 
+                width: auto; 
+                border: 2px solid #1a1a1a; 
+                box-shadow: 4px 4px 0px #000;
+            }
+            .header-text { text-align: left; }
+            h1 { font-family: 'UnifrakturMaguntia', cursive; font-size: 4rem; margin: 0; line-height: 1; }
+            .tagline { font-style: italic; margin-top: 5px; font-size: 1.1rem; }
+            
+            /* NAV */
+            nav { text-align: center; padding: 15px 0; border-bottom: 1px solid #1a1a1a; background-color: #Eae5d6; }
+            .nav-item { color: #1a1a1a; text-decoration: none; margin: 0 15px; font-weight: 900; text-transform: uppercase; font-size: 0.9rem; }
+            .nav-item:hover { color: #B93B3B; text-decoration: underline; }
+            
+            .container { max-width: 800px; margin: 30px auto; padding: 0 20px; }
+            
+            /* WRITER BLOCK (Small circle for standard stories) */
+            .writer-block { display: flex; align-items: center; margin-bottom: 15px; border-bottom: 1px dotted #ccc; padding-bottom: 10px;}
+            .writer-img { width: 60px; height: 60px; border-radius: 50%; border: 2px solid #1a1a1a; margin-right: 15px; object-fit: cover; }
+            .writer-name { font-weight: 900; text-transform: uppercase; display: block; }
+            
+            /* STORY CARD */
+            .story-card { padding-bottom: 40px; margin-bottom: 40px; border-bottom: 1px solid #1a1a1a; }
+            .story-img { width: 100%; border: 1px solid #1a1a1a; margin: 15px 0; filter: sepia(15%); }
+            
+            p { font-size: 1.1rem; line-height: 1.6; color: #222; margin-bottom: 15px; white-space: pre-line; }
+
+            /* SOLILOQUY / COMIC BOX STYLE */
+            .soliloquy-container {
+                margin: 20px 0;
+            }
+            .soliloquy-image-large {
+                width: 100%;
+                display: block;
+                border: 3px solid #000;
+                margin-bottom: -3px; /* Connects to the box below */
+                position: relative;
+                z-index: 2;
+            }
+            .soliloquy-box { 
+                font-family: 'Patrick Hand', cursive; /* Comic Font */
+                font-size: 1.4rem;
+                background: #fff; 
+                padding: 25px; 
+                border: 3px solid #000; 
+                box-shadow: 8px 8px 0px rgba(0,0,0,0.8);
+                white-space: pre-wrap;
+                line-height: 1.4;
+                position: relative;
+                z-index: 1;
+            }
+            
+            /* MEME */
+            .meme-container { position: relative; display: inline-block; width: 100%; margin: 20px 0; }
+            .meme-img { width: 100%; display: block; }
+            .meme-text { 
+                position: absolute; left: 0; width: 100%; text-align: center; 
+                font-family: 'Anton', sans-serif; color: white; font-size: 2.5rem; 
+                text-transform: uppercase; 
+                text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
+                line-height: 1.1; pointer-events: none; padding: 0 10px;
+            }
+            .meme-top { top: 10px; }
+            .meme-bottom { bottom: 10px; }
+            
+            /* COMIC STRIP */
+            .comic-img { width: 100%; display: block; border: 2px solid black; }
+        </style>
+    </head>
+    <body>
+        <header>
+            <img src="https://storage.googleapis.com/remys-digest-public-assets/static/Professor%20Dachshund%20Desk%20Scene.jpg" class="header-logo" alt="Remy at Desk">
+            <div class="header-text">
+                <h1>The Remy Digest</h1>
+                <div class="tagline">"Factual Receipts. Fictional Coping Mechanisms."</div>
+            </div>
+        </header>
+        <nav>
+            <a href="index.html" class="nav-item">Front Page</a>
+            <a href="backpage.html" class="nav-item">Troppo</a>
+<a href="campaign.html" class="nav-item">The Teal Deal</a>
+<a href="letters.html" class="nav-item">Inbox</a>
+<a href="masthead.html" class="nav-item">The Daily Bark</a>
+<a href="news.html" class="nav-item">Local News</a>
+<a href="pitd.html" class="nav-item">The Echo Chamber</a>
+
+        </nav>
+        <div class="container">
+            <h3 style="border-bottom: 2px solid black;">The Teal Deal</h3>
+            
+    <div class="story-card">
+        <span style="background:black;color:white;padding:2px 5px;text-transform:uppercase;font-size:0.7rem;">The Teal Deal</span>
+        
+        
+    <div class="writer-block">
+        <img src="https://storage.googleapis.com/remys-digest-public-assets/static/Wren%20in%20Waistcoat.png" class="writer-img">
+        <div><span class="writer-name">The Teal Deal</span><span>Independent Watch</span></div>
+    </div>
+    
+        
+            <div class="meme-container">
+                <img src="images/DeeWhyDevelopmentKoa_1764927992.png" class="meme-img">
+                <div class="meme-text meme-top">Dee Why Development: Koala Council Says 'Nap Time' on Local Concerns?</div>
+                <div class="meme-text meme-bottom">Another $11 million development approved, despite local squawks. Time for a change of tune?</div>
+            </div>
+            
+        <p style='text-align:center; font-weight:bold;'>The Koala-run council has done it again! Another massive development in Dee Why sails through approval, leaving local Echidnas bristling and Cockatoos squawking mad. It seems our 'representatives' are more interested in their eucalyptus siestas than listening to the community. Is anyone else tired of these concrete jungles popping up while our green spaces dwindle? It's time to shake up the gum trees and elect voices who actually care about *our* burrows, not just their own plush tree-houses. #VoteIndependent #LocalVoice #DeeWhyDeservesBetter</p>
+    </div>
+    
+        </div>
+    </body>
+    </html>
+    

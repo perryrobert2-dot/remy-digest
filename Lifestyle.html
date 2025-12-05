@@ -1,0 +1,182 @@
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Lifestyle</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,700;0,900;1,300&family=UnifrakturMaguntia&display=swap" rel="stylesheet">
+        
+        <style>
+            /* --- VINTAGE NEWSPAPER THEME --- */
+            
+            body {
+                font-family: 'Merriweather', serif;
+                background-color: #F5F1E6; /* The "Yellowed Page" Cream Color */
+                color: #1a1a1a; /* Very Dark Grey/Black for High Contrast */
+                margin: 0;
+                padding: 0;
+            }
+
+            /* --- HEADER SECTION --- */
+            header {
+                text-align: center;
+                padding: 40px 20px 20px 20px;
+                border-bottom: 3px double #1a1a1a; /* Double line separator */
+                margin-bottom: 20px;
+                background-color: #F5F1E6;
+            }
+
+            h1 {
+                font-family: 'UnifrakturMaguntia', cursive; /* The Newspaper Title Font */
+                font-size: 4rem;
+                margin: 0;
+                font-weight: normal;
+                line-height: 1.1;
+            }
+
+            .tagline {
+                font-style: italic;
+                font-size: 1.1rem;
+                margin-top: 10px;
+                font-weight: 300;
+                color: #333;
+            }
+
+            /* --- NAVIGATION --- */
+            nav {
+                text-align: center;
+                padding: 15px 0;
+                border-bottom: 1px solid #1a1a1a;
+                background-color: #Eae5d6; /* Slightly darker cream for contrast */
+            }
+
+            .nav-item {
+                color: #1a1a1a;
+                text-decoration: none;
+                margin: 0 15px;
+                font-weight: 900; /* Bold */
+                text-transform: uppercase;
+                font-size: 0.9rem;
+                letter-spacing: 1px;
+            }
+
+            .nav-item:hover {
+                text-decoration: underline;
+                color: #B93B3B; /* Deep Red for hover interactions */
+            }
+
+            /* --- LAYOUT --- */
+            .container {
+                max-width: 800px;
+                margin: 30px auto;
+                padding: 0 20px;
+            }
+
+            .page-title {
+                text-transform: uppercase;
+                border-bottom: 2px solid #1a1a1a;
+                margin-bottom: 30px;
+                padding-bottom: 5px;
+                font-size: 1.5rem;
+                letter-spacing: 1px;
+            }
+
+            /* --- STORIES (No more white cards, just ink on paper) --- */
+            .story-card {
+                padding-bottom: 30px;
+                margin-bottom: 30px;
+                border-bottom: 1px solid #ccc; /* Light separator line */
+            }
+
+            .story-card:last-child {
+                border-bottom: none;
+            }
+
+            .tag {
+                font-family: sans-serif;
+                font-weight: bold;
+                font-size: 0.75rem;
+                border: 1px solid #1a1a1a;
+                padding: 2px 6px;
+                text-transform: uppercase;
+                display: inline-block;
+                margin-bottom: 10px;
+            }
+
+            /* Featured Stories get larger headlines */
+            .featured h2 {
+                font-size: 2.2rem;
+            }
+
+            h2 {
+                margin-top: 5px;
+                margin-bottom: 10px;
+                color: #1a1a1a;
+                font-weight: 900;
+                line-height: 1.2;
+            }
+
+            p {
+                font-size: 1.1rem;
+                line-height: 1.6;
+                color: #222; /* High Contrast */
+                margin-top: 0;
+            }
+
+            .story-img {
+                width: 100%;
+                height: auto;
+                display: block;
+                margin: 15px 0;
+                border: 1px solid #1a1a1a; /* Photo border */
+                filter: sepia(20%); /* Slight sepia filter for vintage look */
+            }
+
+        </style>
+    </head>
+    <body>
+
+        <header>
+            <div style="font-size: 0.8rem; text-transform: uppercase; border-bottom: 1px solid black; padding-bottom: 5px; margin-bottom: 15px; display: flex; justify-content: space-between;">
+                <span>Vol. 1</span>
+                <span>Cromer, NSW</span>
+                <span>Cost: 10 Minutes</span>
+            </div>
+            
+            <h1>The Remy Digest</h1>
+            <p class="tagline">"Factual Receipts. Fictional Coping Mechanisms."</p>
+        </header>
+
+        <nav>
+            <a href="index.html" class="nav-item">Home</a>
+            <a href="Arts.html" class="nav-item">Arts</a>
+<a href="Lifestyle.html" class="nav-item">Lifestyle</a>
+<a href="Local.html" class="nav-item">Local</a>
+<a href="News.html" class="nav-item">News</a>
+<a href="Sport.html" class="nav-item">Sport</a>
+<a href="Troppo.html" class="nav-item">Troppo</a>
+
+        </nav>
+
+        <div class="container">
+            <h3 class="page-title">Lifestyle</h3>
+            
+    <div class="story-card">
+        <span class="tag">Lifestyle</span>
+        <h2>Manly Cafe Takes 'Avocado Obsession' to Absurd New Heights, Serves Lattes in Hollowed-Out Fruit</h2>
+        <img src="images/ManlyCafeTakesAvocad_1764912937.png" alt="Manly Cafe Takes 'Avocado Obsession' to Absurd New Heights, Serves Lattes in Hollowed-Out Fruit" class="story-img">
+        <p>A trendy Manly establishment is now offering 'Avo-Lattes', coffee served directly in the shell of a ripe avocado. Patrons are reportedly paying $18 for the privilege of experiencing 'peak Sydney pretentiousness'.</p>
+    </div>
+    
+        </div>
+        
+        <footer style="text-align:center; padding: 40px; font-size: 0.8rem; color: #555;">
+            &copy; 2025 The Remy Digest. Printed in the Cloud.
+        </footer>
+
+    </body>
+    </html>
+    
