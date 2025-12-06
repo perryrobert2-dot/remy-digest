@@ -4,8 +4,10 @@ import datetime
 
 # --- CONFIGURATION ---
 CONTENT_FILE = "data/stories_generated.json"
-OUTPUT_FILE = "index.html"
-ASSET_DIR = "assets"
+# FIX: Change OUTPUT_FILE to include the 'output' directory
+OUTPUT_DIR = "output"
+OUTPUT_FILE = os.path.join(OUTPUT_DIR, "index.html")
+ASSET_DIR = "assets" 
 
 # Define the "Desks" (The Scroll Order)
 SECTIONS = {
@@ -57,14 +59,14 @@ def render_article(data, layout_type):
     if not data or "headline" not in data:
         return ""
 
-    # --- IMAGE HANDLING ---
+    # --- IMAGE HANDLING (No change) ---
     img_html = ""
     if layout_type == "special_politics":
         img_html = render_politics_header()
     elif "image_path" in data and data["image_path"]:
         img_html = f'<div class="article-image"><img src="{data["image_path"]}" alt="News Image"></div>'
     
-    # --- STYLING LOGIC ---
+    # --- STYLING LOGIC (No change) ---
     css_class = "article-box"
     icon = ""
     
@@ -94,7 +96,11 @@ def build_html():
         print("❌ No content found. Run generate_news.py first.")
         return
 
-    # --- HTML HEAD & CSS ---
+    # Ensure output directory exists before writing
+    if not os.path.exists(OUTPUT_DIR):
+        os.makedirs(OUTPUT_DIR)
+
+    # --- HTML HEAD & CSS (Omitted for brevity; remains the same) ---
     html = """
     <!DOCTYPE html>
     <html lang="en">
@@ -162,13 +168,11 @@ def build_html():
                 text-transform: uppercase;
                 font-weight: bold;
                 font-size: 0.8rem;
-                /* scrollbar-width: none; <-- REMOVED */
                 position: sticky;
                 top: 0;
                 z-index: 100;
                 border-bottom: 2px solid #000;
             }
-            /* .nav-ticker::-webkit-scrollbar { display: none; } <-- REMOVED */
             .nav-item {
                 display: inline-block;
                 margin-right: 20px;
@@ -328,7 +332,12 @@ def build_html():
     </body>
     </html>
     """
+    
+    # Check if the output directory exists
+    if not os.path.exists(OUTPUT_DIR):
+        os.makedirs(OUTPUT_DIR)
 
+    # Write the final HTML file to the correct output folder
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
         f.write(html)
     
