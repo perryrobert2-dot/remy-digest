@@ -4,7 +4,7 @@ import datetime
 
 # --- CONFIGURATION ---
 CONTENT_FILE = "data/stories_generated.json"
-# FIX: Change OUTPUT_FILE to include the 'output' directory
+# Correct Output location for GitHub/Vercel
 OUTPUT_DIR = "output"
 OUTPUT_FILE = os.path.join(OUTPUT_DIR, "index.html")
 ASSET_DIR = "assets" 
@@ -40,6 +40,7 @@ def load_content():
 
 def render_politics_header():
     """Custom HTML for the Mick & Scampy showdown"""
+    # NOTE: The static images for the headers must be copied to output/assets/
     return """
     <div class="politics-header">
         <div class="pol-candidate">
@@ -59,12 +60,17 @@ def render_article(data, layout_type):
     if not data or "headline" not in data:
         return ""
 
-    # --- IMAGE HANDLING (No change) ---
+    # --- IMAGE HANDLING ---
     img_html = ""
     if layout_type == "special_politics":
         img_html = render_politics_header()
+        
+    # CRITICAL FIX: The image path must be relative to the index.html file, which means
+    # it must point into the 'images' folder we just copied to output/
     elif "image_path" in data and data["image_path"]:
-        img_html = f'<div class="article-image"><img src="{data["image_path"]}" alt="News Image"></div>'
+        # Use os.path.basename to get only the filename from the full path
+        filename = os.path.basename(data["image_path"])
+        img_html = f'<div class="article-image"><img src="images/{filename}" alt="News Image"></div>'
     
     # --- STYLING LOGIC (No change) ---
     css_class = "article-box"
