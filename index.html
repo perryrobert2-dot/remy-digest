@@ -6,67 +6,307 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>The Remy Digest</title>
         <style>
-            body { font-family: 'Georgia', serif; background-color: #f4f4f9; margin: 0; padding: 0; }
-            header { background-color: #333; color: white; padding: 20px; text-align: center; }
-            h1 { margin: 0; font-family: 'Arial', sans-serif; letter-spacing: 2px; }
+            @import url('https://fonts.googleapis.com/css2?family=Chomsky&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Permanent+Marker&display=swap');
             
-            /* Navigation */
-            nav { background-color: #444; padding: 10px; text-align: center; }
-            .nav-item { color: white; text-decoration: none; margin: 0 15px; font-weight: bold; font-family: sans-serif; }
-            .nav-item:hover { text-decoration: underline; color: #ffcc00; }
+            :root {
+                --paper: #f4f1ea;
+                --ink: #2a2a2a;
+                --accent: #2c4f54; 
+                --alert: #d9534f;
+            }
 
-            /* Layout */
-            .container { max-width: 800px; margin: 20px auto; padding: 20px; }
-            .section-title { border-bottom: 2px solid #333; margin-bottom: 20px; padding-bottom: 5px; }
+            html { scroll-behavior: smooth; }
 
-            /* Cards */
-            .story-card { background: white; padding: 20px; margin-bottom: 20px; border-radius: 5px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
-            .story-card.featured { border-left: 5px solid #ffcc00; }
+            body {
+                background-color: #222;
+                font-family: 'Libre Baskerville', serif;
+                margin: 0;
+                display: flex;
+                justify-content: center;
+            }
+
+            .mobile-container {
+                background-color: var(--paper);
+                width: 100%;
+                max-width: 450px;
+                min-height: 100vh;
+                box-shadow: 0 0 20px rgba(0,0,0,0.5);
+                border-left: 1px solid #ddd;
+                border-right: 1px solid #ddd;
+            }
+
+            /* --- MASTHEAD --- */
+            header {
+                text-align: center;
+                padding: 20px 10px;
+                border-bottom: 3px double var(--ink);
+            }
+            h1 {
+                font-family: 'Chomsky', serif;
+                font-size: 3.5rem;
+                margin: 0;
+                line-height: 1;
+            }
+            .tagline {
+                font-style: italic;
+                font-size: 0.9rem;
+                color: #555;
+                margin-top: 5px;
+            }
+
+            /* --- NAV TICKER FIX --- */
+            .nav-ticker {
+                background: var(--ink);
+                color: var(--paper);
+                white-space: nowrap;
+                overflow-x: auto;
+                padding: 10px;
+                font-family: sans-serif;
+                text-transform: uppercase;
+                font-weight: bold;
+                font-size: 0.8rem;
+                /* scrollbar-width: none; <-- REMOVED */
+                position: sticky;
+                top: 0;
+                z-index: 100;
+                border-bottom: 2px solid #000;
+            }
+            /* .nav-ticker::-webkit-scrollbar { display: none; } <-- REMOVED */
+            .nav-item {
+                display: inline-block;
+                margin-right: 20px;
+                opacity: 0.9;
+                text-decoration: none;
+                color: var(--paper);
+            }
+            .nav-item:hover {
+                text-decoration: underline;
+                color: #fff;
+            }
+
+            /* --- SECTIONS --- */
+            .desk-header {
+                background: #e0ded5;
+                padding: 10px 15px;
+                border-top: 2px solid var(--ink);
+                border-bottom: 1px solid var(--ink);
+                font-family: sans-serif;
+                font-weight: bold;
+                text-transform: uppercase;
+                letter-spacing: 1px;
+                margin-top: 0;
+                scroll-margin-top: 40px; 
+            }
+
+            /* --- ARTICLE BOXES --- */
+            .article-box {
+                padding: 20px;
+                border-bottom: 1px solid #ccc;
+            }
+            .article-image img {
+                width: 100%;
+                height: auto;
+                border: 1px solid #333;
+                margin-bottom: 15px;
+                filter: sepia(0.2);
+            }
+            .headline {
+                font-size: 1.4rem;
+                margin-top: 0;
+                margin-bottom: 10px;
+                line-height: 1.2;
+            }
+            .body-text {
+                font-size: 1rem;
+                line-height: 1.5;
+                color: #333;
+                text-align: justify;
+            }
+
+            /* --- SPECIAL STYLES --- */
+            .style-lead .headline { font-size: 1.8rem; }
             
-            .story-img { max-width: 100%; height: auto; display: block; margin: 10px 0; border-radius: 3px; }
-            
-            .tag { background-color: #eee; padding: 3px 8px; font-size: 0.8em; border-radius: 3px; font-family: sans-serif; color: #555; text-transform: uppercase; }
-            h2 { margin-top: 10px; color: #222; }
-            p { line-height: 1.6; color: #444; }
+            .style-politics { background-color: #fcfcfc; }
+            .politics-header {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-bottom: 15px;
+                border-bottom: 1px dashed #aaa;
+                padding-bottom: 10px;
+            }
+            .pol-candidate { text-align: center; width: 40%; }
+            .pol-avatar { width: 80px; height: 80px; object-fit: contain; mix-blend-mode: multiply; }
+            .pol-name { font-size: 0.7rem; font-weight: bold; text-transform: uppercase; margin-top: 5px; }
+            .pol-vs { font-weight: bold; font-style: italic; color: #888; }
+
+            .style-arts {
+                font-family: 'Georgia', serif;
+                font-style: italic;
+                background: #f9f9f9;
+                border-left: 4px solid #666;
+            }
+
+            .style-youth {
+                font-family: 'Courier New', monospace;
+                background: #eef;
+                border: 2px dashed #66f;
+            }
+            .style-youth .headline {
+                font-family: 'Permanent Marker', cursive;
+                color: #33c;
+            }
+
+            .style-troppo {
+                border: 3px solid var(--alert);
+                background: #fff0f0;
+            }
+
+            .style-tech {
+                background: #222;
+                color: #0f0;
+                font-family: 'Courier New', monospace;
+            }
+            .style-tech .body-text { color: #0f0; }
+            .style-tech .headline { color: #0f0; text-transform: uppercase; }
+
+            /* --- FOOTER --- */
+            footer {
+                text-align: center;
+                padding: 40px 20px;
+                background: var(--ink);
+                color: var(--paper);
+                font-size: 0.8rem;
+            }
         </style>
     </head>
     <body>
-
-        <header>
-            <h1>THE REMY DIGEST</h1>
-            <p>Satire for the Discerning Local</p>
-        </header>
-
-        <nav>
-            <a href="index.html" class="nav-item">Home</a>
-            <a href="#Arts" class="nav-item">Arts</a>
-<a href="#Backpage" class="nav-item">Backpage</a>
-<a href="#Community" class="nav-item">Community</a>
-<a href="#Lifestyle" class="nav-item">Lifestyle</a>
-<a href="#News" class="nav-item">News</a>
-<a href="#Sport" class="nav-item">Sport</a>
-
-        </nav>
-
-        <div class="container">
-            <h3 class="section-title">Top Stories</h3>
+        <div class="mobile-container">
             
-            <div class="story-card featured">
-                <span class="tag">News</span>
-                <img src="https://storage.googleapis.com/remys-digest-public-assets/static/Two-Eyed%20Prone%20Beetroot%20in%20Suit.png" alt="Sausage Shortage Panic in New England" class="story-img">
-                <h2>Sausage Shortage Panic in New England</h2>
-                <p>Hon. Barnaby Joyce seen hoarding onions; claims 'War on Weekend' requires strategic reserves.</p>
+            <header id="top">
+                <img src="assets/remy_masthead.png" style="max-width: 150px; display: block; margin: 0 auto 10px auto;">
+                <h1>The Remy Digest</h1>
+                <div class="tagline">"Factual Receipts. Fictional Coping Mechanisms."</div>
+                <div class="tagline">Vol. 1 | Cromer, NSW | Est. 2025</div>
+            </header>
+
+            <div class="nav-ticker">
+                <a href="#front" class="nav-item">THE FRONT</a>
+                <a href="#pulse" class="nav-item">THE PULSE</a>
+                <a href="#voices" class="nav-item">THE VOICES</a>
+                <a href="#back" class="nav-item">THE BACK PAGE</a>
+                <span class="nav-item">WEATHER: 24°C & HUMID</span>
             </div>
-            
-            <div class="story-card featured">
-                <span class="tag">Community</span>
-                
-                <h2>Car Recovered from Narrabeen Lagoon</h2>
-                <p>Driver wet but groceries lost; local fish rejoice at improved water quality.</p>
-            </div>
-            
+
+            <div id="front" class="desk-header">THE FRONT PAGE</div>
+    <article class="article-box style-lead">
+        <div class="article-image"><img src="assets/front_page_1764979710.png" alt="News Image"></div>
+        <h3 class="headline">A Season of Discomfort and Dubious Distractions Awaits Our Esteemed Northern Beaches</h3>
+        <div class="body-text">
+            My dear readers, it is with a certain weary sigh that I address the impending summer, which prognosticators assure us will be 'hotter than usual'. One scarcely needs a council report to confirm what one's very fur coat already intuits. Alas, such warmth promises only further indolence from certain quarters and, dare I say, an increase in panting.<br><br><br><br>Furthermore, our esteemed Advocate brings word of a 'Public Safety Round-Up', a phrase that always makes one wonder what precisely has been 'rounded up'. One hopes it pertains to stray litter and not, heavens forbid, misplaced decorum. The recent 'high winds' at the Manly Cup sound rather... vigorous, quite unsettling for a proper constitutional. And, in a curious juxtaposition, a new establishment named 'Felons' has opened its doors. One trusts their offerings are more refined than their nomenclature suggests. Let us strive for grace, even amidst the rising mercury.
         </div>
-
+    </article>
+    
+    <article class="article-box style-politics">
+        
+    <div class="politics-header">
+        <div class="pol-candidate">
+            <img src="assets/scamps_glider.png" alt="Scampy" class="pol-avatar">
+            <div class="pol-name">The Teal Deal</div>
+        </div>
+        <div class="pol-vs">VS</div>
+        <div class="pol-candidate">
+            <img src="assets/regan_mallard.png" alt="Mick" class="pol-avatar">
+            <div class="pol-name">The Independent</div>
+        </div>
+    </div>
+    
+        <h3 class="headline">Capital Hill's Cash-in & Canoodle: Where Common Sense Meets Cognitive Bandwidth</h3>
+        <div class="body-text">
+            Righto, another big week up here on Capital Hill. The PM, Albo, he's gone and got hitched to Jodie, good on 'em. Then straight off to some fancy $3000-a-night joint. Fair dinkum, a bloke could buy a decent set of tyres for his ute with that kinda cash, eh?<br><br><br><br>Mick, you're again reducing a multifaceted strategic narrative to simplistic pecuniary metrics! This isn't merely a 'fancy joint'; it's a critical investment in executive-level wellness, enhancing cognitive bandwidth for optimal policy ideation post-nuptial recalibration!<br><br><br><br>Cognitive what now? He's on his honeymoon, Scampy! And speaking of cash, guess who else is raking it in? Old Dutton, selling his luxury farm for a multi-million-dollar payday. Good on him for cashing in on the market, makes sense to me.<br><br><br><br>Ah, but Mick, this is a prime example of astute asset divestment within an appreciating market, signaling a proactive portfolio optimization strategy. It's not just 'cashing in'; it's leveraging market dynamics for maximal capital gain, a clear demonstration of financial acumen and strategic foresight within the parliamentary ecosystem!<br><br><br><br>It's a farm, Scampy! He sold a farm! And Albo's on his holiday. What's so hard to understand about that? You and your big words, trying to make everything sound like rocket science when it's just blokes doing bloke things!<br><br><br><br>Mick, your anachronistic adherence to reductionist narratives impedes a comprehensive understanding of contemporary political economy! There are underlying drivers!<br><br><br><br>Yeah, money and a missus! That's the drivers!
+        </div>
+    </article>
+    
+    <article class="article-box">
+        <div class="article-image"><img src="assets/local_1764979754.png" alt="News Image"></div>
+        <h3 class="headline">Midnight Mattress Mover: A Case of 'Malicious Redistribution'!</h3>
+        <div class="body-text">
+            I saw it! Under the pale, traitorous moonlight, a shadow slunk through the quiet Cromer streets, dragging something… colossal. Lumpy. Suspicious! A mattress, folks, a full-sized, springs-aching, secrets-holding mattress, being heaved from the porch of Number 42 straight to the unsuspecting doorstep of Number 44! I saw it! Not a human, no, worse! A small, black dog, tail wagging with a disturbing purpose, pulling that polyester prison across the Manly roads under the cover of darkness. The sheer audacity! <br><br><br><br>My informant, a very nervous worm, heard the whispers: 'Malicious Redistribution of Rubbish,' the boys in blue are calling it. A fancy phrase for a doggone disgrace! Public safety, you ask? Forget the usual squabbles; this is a brazen act of canine chaos! Was it a message? A warning for the hotter summer ahead? My beak tingled; there had to be a shiny reason! What valuable baubles, what glinting coins, were shaken loose from those lumpy folds? Keep your eyes peeled, Northern Beaches. If a mattress can walk, what's next? Your car keys? Your favourite bottle cap? Nothing is safe!
+        </div>
+    </article>
+    <div id="pulse" class="desk-header">THE PULSE</div>
+    <article class="article-box">
+        <div class="article-image"><img src="assets/real_estate_1764979787.png" alt="News Image"></div>
+        <h3 class="headline">Cromer's Coastal Charm: Unmissable Upside (STCA!)</h3>
+        <div class="body-text">
+            The Northern Beaches market remains as hot as a summer's day at Narrabeen Lakes, folks, and astute investors are pouncing! We're seeing unprecedented demand for properties offering *potential*, and Cromer is leading the charge.<br><br><br><br>Just listed – a quintessential Cromer ‘Renovator’s Delight’ on a generous parcel. This isn't just a house; it’s a canvas for *capital growth*! Imagine the possibilities: a sparkling new second storey, an expansive entertainer's deck, perhaps even a granny flat for extra income – all, naturally, STCA. The sky's the limit when you've got the vision, and of course, council approval.<br><br><br><br>Positioned mere moments from pristine beaches, quality schools, and the lush golf course, this opportunity practically screams 'lifestyle upgrade'. Properties with this much *untapped upside* aren't just hitting the market; they're barely touching it before they're snapped up faster than a dropped sausage roll at a Sunday BBQ.<br><br><br><br>Don't let this golden opportunity become someone else's trophy investment. The window of opportunity is closing faster than a fox chasing a chicken dinner! Call Sly today – let's discuss how you can stake your claim in Cromer's booming future.
+        </div>
+    </article>
+    
+    <article class="article-box style-arts">
+        <div class="article-image"><img src="assets/arts_1764979772.png" alt="News Image"></div>
+        <h3 class="headline">🧐 A Kerbside Revelation: 'Suburban Despair' at Number 44, Cromer</h3>
+        <div class="body-text">
+            One often finds that true artistic revelation springs not from gilded galleries, but from the uncurated, the incidental, the very detritus of human existence. And so it is with the profoundly moving installation, 'Suburban Despair', currently gracing the kerbside outside Number 44, Cromer. This unsolicited masterpiece, a testament to raw, unfiltered urban expression, transcends mere refuse, elevating discarded domesticity to a poignant commentary on contemporary life. <br><br><br><br>The focal point, a discarded mattress, presents a veritable tapestry of stained textures. Its variegated hues, from a robust ochre to an almost iridescent amber, speak volumes of forgotten dreams and unseen dramas within these very Northern Beaches. Each splotch, each faded impression, is a meticulously placed brushstroke in a narrative of quiet desperation, a testament to the passage of time and the inevitable decay that defines our mortal coils. One can almost feel the lingering echoes of countless repose, transforming what lesser minds might dismiss as 'filth' into a compelling, tactile journey. A truly exceptional piece, deserving of profound contemplation and perhaps, a permanent acquisition for a municipal collection.
+        </div>
+    </article>
+    
+    <article class="article-box">
+        <div class="article-image"><img src="assets/lifestyle_1764979830.png" alt="News Image"></div>
+        <h3 class="headline">Pawsitively Purrfect Mornings: Achieving Your Inner Glow (and the Best Lighting!)</h3>
+        <div class="body-text">
+            Darling kittens, Coco here, and if there’s one thing I’m absolutely, positively OBSESSED with, it’s starting my day with the perfect *vibe*. It's not just about waking up; it’s about curating a morning aesthetic that literally radiates glow-up energy! My first rule? Chase that natural light! I stretch dramatically by the window, letting the golden hour kisses illuminate my fur for that *au naturel* filter look. It’s all about capturing that ethereal, soft focus right when you open your eyes – because, let's be real, the best selfies happen before you've even had your first sip of purified spring water. Then, it's straight to the kitchen for my bespoke, organic, artisanal avocado toast – smashed just so, with a sprinkle of Himalayan pink salt. Every bite is a moment, a 'grammable experience. Remember, darling, your day is your canvas, so make sure it's always photo-ready. Stay pawsitive and keep shining!
+        </div>
+    </article>
+    <div id="voices" class="desk-header">THE VOICES</div>
+    <article class="article-box style-tech">
+        <div class="article-image"><img src="assets/tech_1764979884.png" alt="News Image"></div>
+        <h3 class="headline">💻 Panic-Proofing Your Peripherals: Webster's Wi-Fi Woes & What-Not-To-Wear!</h3>
+        <div class="body-text">
+            Greetings, valued Remy Digest readers, Webster here, tapping furiously from my secure (mostly) server-side corner. *Tap-tap-tap-tap-tap!* I've noticed a worrying spike in what I'm classifying as 'Web-Interference Events' across the Cromer network. Is your connectivity feeling… frayed? Are packets dropping faster than a panicked arachnid when a large, looming, *shudder* shoe approaches?<br><br><br><br>Before you resort to drastic measures, like… unplugging! *Gasp!* Let's run through a quick diagnostic. First, verify all your 'silk lines' – I mean, cables – are securely fastened. A loose connection is a prime vector for signal degradation. Next, clear your browser cache. Think of it as dusting out the accumulated detritus from too many late-night searches for… for *anything but shoes*. Then, a gentle system reboot. Not a frantic 'smash the button' reboot, mind you. A calm, controlled shutdown and restart. We need stable protocols, people!<br><br><br><br>If issues persist, it might be an environmental factor. Perhaps a rogue gust from Narrabeen Beach is playing havoc with your antenna's integrity. Or maybe, just maybe, someone has positioned their footwear dangerously close to critical infrastructure. Please, for the love of stable throughput, let’s ensure our workspaces are… foot-free zones. My CPU temp rises just thinking about it. Stay connected, stay calm, and keep those interfaces clear! *Tap-tap-tapa-tap-tap!*
+        </div>
+    </article>
+    
+    <article class="article-box style-mystic">
+        <div class="article-image"><img src="assets/horoscope_1764979845.png" alt="News Image"></div>
+        <h3 class="headline">🔮 The Feline Gaze: Cromer's Fortunes (Don't Get Your Hopes Up)</h3>
+        <div class="body-text">
+            The air above Cromer seems thick with... well, mostly humidity and the faint scent of stale chips. My whiskers twitch, not with profound insight, but probably just an irritant from that dreadful dog walking by. For those of you scurrying about the Northern Beaches this cycle, don't expect grand revelations. The stars, frankly, are quite bored with your daily dramas.<br><br><br><br>If you're a creature of routine, planning another walk around Narrabeen Lagoon, prepare for... another walk around Narrabeen Lagoon. The universe isn't going to suddenly drop a winning lottery ticket at your feet, much less a perfectly sun-warmed patch of pavement for an afternoon nap. My advice? Don't bother overthinking it. What's destined to be mildly inconvenient will be mildly inconvenient. You'll likely spill your flat white, or encounter someone with an unnecessarily loud Bluetooth speaker. Deal with it. Or better yet, don't. A nap sounds far more appealing. The cosmos demands nothing from you but mild indifference.
+        </div>
+    </article>
+    <div id="back" class="desk-header">THE BACK PAGE</div>
+    <article class="article-box">
+        <div class="article-image"><img src="assets/sport_1764979799.png" alt="News Image"></div>
+        <h3 class="headline">Grit, Glory, and Gravy: Northern Beaches Gives 110%!</h3>
+        <div class="body-text">
+            Right then, let's get down to brass tacks. Full credit to the boys, and girls mind, out on the water for the Manly Cup this weekend. High winds? Didn't matter! They gave 110%, really dug deep and put in the hard yards. Proper gritty stuff, that. Shows what you can do when everyone's pulling in the same direction.<br><br><br><br>Over on the paddock, big news for the Sea Eagles, with Croker moving into a coaching role. A tough gig, that, stepping back, but he’ll be a massive asset. You’ve got to admire the commitment. Now, about these blokes off to the Roosters… loyalty’s a funny old game, isn't it? But you know what? We stick by our own. It's about getting back to basics and building strong for next season. No point crying over spilt milk, eh?<br><br><br><br>With summer hotter than usual on the horizon, the lads will need to hydrate. And for us supporters, well, a good meat pie and a pint down at that new brewery by the wharf sounds like just the ticket after all that effort. Keep your chin up, Northern Beaches!
+        </div>
+    </article>
+    
+    <article class="article-box style-youth">
+        <div class="article-image"><img src="assets/youth_sport_1764979816.png" alt="News Image"></div>
+        <h3 class="headline">⚡ POV: My Cromer Wheelie Was Giving 'Almost Wrecked' Vibes 💀</h3>
+        <div class="body-text">
+            Yo, what up, Remy Squad! Zoomie here, back with the realest tea from the Northern Beaches sport scene, no cap. So I was just vibing, cruising my e-bike down the footpath near Curl Curl, feeling like a total boss, you know? Decided to hit a cheeky wheelie, full send style. Thought I was main character energy, fr fr.<br><br><br><br>But then, out of nowhere, this *random mattress* just spawned! Like, who puts a whole mattress on the footpath? My wheelie form was peak, but then I had to swerve like a pro gamer dodging a red shell. Almost went full ragdoll physics into it, I swear! 💀 It was giving 'almost wiped out' vibes big time. My heart rate was definitely in the red zone. This ain't what I signed up for when I hit the streets. Be safe out there, fam, you never know what glitches the universe will throw at you. Skibidi out!
+        </div>
+    </article>
+    
+    <article class="article-box style-troppo">
+        <div class="article-image"><img src="assets/troppo_1764979864.png" alt="News Image"></div>
+        <h3 class="headline">🐊 Proper North QLD Chaos: Croc Bait Swimmer a Bloody Legend!</h3>
+        <div class="body-text">
+            G'day legends! Dazza here, sweatin' me ring out in this glorious QLD humidity – beats yer fancy 'Southern' 'mild' weather any day, eh? Been sippin' on an XXXX Gold, watchin' the world go mad, and crikey, do we have some news from where the real action is!<br><br><br><br>Now, some soft-bellied southerner might get a bit pearl-clutchy, but up here, we just call it Tuesday. Hear about some bloke, a proper cowboy swimmer, tryin' to tempt fate with a baited croc trap? Bloody beaut! Don't see that kinda cojones down in yer beige suburbs, do ya? That's what I'm talkin' about! Proper, fair dinkum, high-stakes backyard shenanigans. Legend, I say! Probably just wanted a closer look. And speaking of art, saw some whingein' about 'violent ute artwork'. Mate, a ute without a bit of character, a bit of true blue grit, ain't a ute at all! Keep it loose, keep it wild, keep it Northern! Dazza out!
+        </div>
+    </article>
+    
+            <footer>
+                <p>&copy; 2025 The Remy Digest.</p>
+                <p>Generated by Remy, Squeak & The Team.</p>
+                <p>Beware of the Ibis.</p>
+                <br>
+                <a href="#top" style="color: #888; text-decoration: none;">↑ Back to Top</a>
+            </footer>
+        </div>
     </body>
     </html>
     

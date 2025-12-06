@@ -1,13 +1,5 @@
 [
     {
-        "source_query": "Townsville Bulletin",
-        "title": "Woman dies after being attacked by dog",
-        "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxNQ1BBNWNuemlnMzF6ME5RYUNEaXoySmNEWE45ZDM2QVBOY0lUOXU5QUZTUjI3TU95SF9YQW5kZlVlS1BWUWlHSTVVbExoYm9XSno3cnU1RVdOc24wem95dWNkS1VNYzZMd3gzOHI5SWUzcGFvNUVwYXJRQVR4Y3JEMWVkTTNGSzM5RXBGMl9tSGRCc0ZBTVBYN0NieE9lc0JkOWxEbFFaNnlOR204NzBfNHhpMk8wMzVNdEVWLTVlNmpvLVB4UTBmallfb2tMb01aN2lmQWVxRndIVDdTRXJsVy0yLUlqbGNNZEE4Vi1BR095dWNV0gH6AUFVX3lxTE5jUTBqaThOa2YwZndRZjhrU3dkZ0FoSlZ6ZG1PQlU3eUFhT2dBSlFHZTh4YW9UN21RbGo0VWFjcFRCaWNaakcwNHlWZXFiZjkyalM5UEg5QlJZSmtHU01ldlYwMGZaeEhueTJXMzdGMkV4NmNLaDlfcnhnclZabk5ibjBYTUVRVmZGM1oyZlB4enZVUW9wQXlHTG1WY0NfMkQ2MmoyUmw3WEY2WlNXUGRveHFodXE5R0xYLVJnYnJnNEVUYnJGb1FtRVRtSW85Z2QwaUtITUZubTRyc2o0cGZ3YkY0ZVJnVEVjNUxDVDNMYURhbUY1UHFFOGc?oc=5",
-        "published": "Fri, 05 Dec 2025 04:38:01 GMT",
-        "clean_title": "Woman dies after being attacked by dog",
-        "crazy_score": 3
-    },
-    {
         "source_query": "Cairns Post",
         "title": "Woman arrested in dramatic footchase after allegedly assaulting shop manager",
         "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPaTlHTkNBaHh1X1ZWYzBFY0JYaUpwSGgwVFh4cElWX2R1T1hEekd3NmtSdEpQLXAtTnVEejFGR1VJVVBuRklKLVJ3bFNSSGhEbXFudHUwVUItNXloM3JTVVBvZkQtYllEWmh4R3hlcjNfaEVxN3IwWWoyQU9IaUhGbHAzWjBOQmxiYlFUREpMRVJDZGZCcUxsQVdrNzZlU2UyYmxXQktJeWJ0OWRBNFdXMkgtLUlaRXAxSHFCT2FpTERQaHk0c3h5ajlLamg?oc=5",
@@ -17,10 +9,18 @@
     },
     {
         "source_query": "Townsville Bulletin",
-        "title": "A humble hero: Townsville\u2019s first Woman of Year dies",
-        "link": "https://news.google.com/rss/articles/CBMiggJBVV95cUxQcjEtaVNFaGNJSmVrRVZ3M0hOUFJ1RkgtMmRHNVEyS05ONmlIUWJnT0hGeGZ6dnZoR0ZBUjV4eGY3UnlHckluSXJHUEhWQlRUbW5uT2tNSXFaWFZ4VDNlRzNlZW9jUjBOZXNab2VGdk8wZzVTS1h5STFNdlJabkMtb0p4OVllZlloXzlneGJfU1M2MUVjUHRTNVZjZEZ2MVc3VHdTaTRERUp1UEZiQU9KaTQ1Sm5GTjJUREYyaUdvTDAzdmlGRGxvOFR3NVVHYXFnZ1VEN3VfMWQtSS1BSWpwMFdsU2lHWmNBSlVSeVlsMjc1bEhNWS1SYUNRYUJxMTZHQ1HSAYcCQVVfeXFMT2tDOGJkeWJzLS14VFo0V1ctQ3QtUDNadHZ1ak1odHg4aDdGU1IyVzNoVHc1ejZjM1NjLWpsVkJfZEhJNnNKMFlwOWcxc3ZGdEtSMjVTNzQ3U2E4SnY0Ny1NanRISk55LURUem9GQ3NFVXhqdkUybFM5SW9IcTdjSjlKLXRlT0dMNHdkc2lSLWZud3g3alFudm5lbXQzRjRWdXlFa2x4UElQYk5NSHlXTjA5T2tVOVBHZGFfQVdfM3RRd2N1d1l2TE5pN2NzZmlOUnQ5U2tVMkFzODlybF9UejR6RVUzWXc5aXV6amVCTno0aUc2SE1SNnRELWZBTGFIQnU5R2pvbzA?oc=5",
-        "published": "Fri, 28 Nov 2025 19:07:30 GMT",
-        "clean_title": "A humble hero: Townsville\u2019s first Woman of Year dies",
+        "title": "Woman hurt in single-vehicle accident on Bruce Hwy",
+        "link": "https://news.google.com/rss/articles/CBMikwJBVV95cUxOWE1iS3FiV2xGMzFmdGVaMk9yR2tyS1FaaXhZSEM0OXE5blU0VHlnanF0TlB1d01LbUdINWlzeXdRNURyeGpIak9MSmFUVlRWZGZ4TXhaTFhuRXBxM2UxelFVTlExNlozMDhNdDZlWTZFOXhiMjRpOXhaQWphaDY4U2U4d3ZOVlZfcjZGZDJWTnd3UUV1cFJCUUFvS2w5OWFqSS1QY2lOc3F3bkxrd3A4RmpGWEFGRWo4Q0ZfS1h0ZnJZUXFvXzdqMGZSTHJPT2hMc1BnRzBETmNaN3NJcS1aRVVqWkh0cHhEVVdUdEJTZ180dERnNExOQXJYY1dxdllXTEZ6UU1RRDFoVGlHUk5DZlUtd9IBmAJBVV95cUxOUEt4RVk1enFMNk9VUnZRVVM4cWpvSVNkRzU3ck8wUS13Z09UMlozRXFRcDRvU0l2SHFtWmxpVElWMUdDNkQxQ1AzZW5yMGtyOURlQThiRDUyWGozUjRRZTlIaWxUYTQxcjBMbzgxVlAzNWZORW84VDl2VkV2RFROUUpOQXNYa1h2dDBhRE1XOEpBY2YtX1kwdDB0U1ZaYkdWN0RCVUthQm1QU3JGaVk4S0MzMF9XbUFRT0k5MTA2UnF4UnRmMUk3cG1FX0VWOE5RNmJtdjUtVmVyMmE4N2tfQ3R5b2g5bGp0ZkNkbGVPUGFSZE1xWlBkeFJwVWhGSlU1UTlkYkY2R3hqV0dXMTZncW9ZeHV0ZlRP?oc=5",
+        "published": "Mon, 01 Dec 2025 06:16:30 GMT",
+        "clean_title": "Woman hurt in single-vehicle accident on Bruce Hwy",
+        "crazy_score": 2
+    },
+    {
+        "source_query": "Townsville Bulletin",
+        "title": "Warrior within: How one man\u2019s fight for purpose built a community",
+        "link": "https://news.google.com/rss/articles/CBMihgJBVV95cUxQS0NtTS1KbFdranVoUkRtbDR1clVkcmJmNlJOV2M4ZEk1Qk9PU1ZVWGE4VmpkOWtkV1ZYWTdhTFRYR3NjVWpyREtJanNzQzUtWWoyRnhMRFloU19YUl9zTkE1ZkFkd19ueUdnUm1EcTYtelkyMWtKZHpRTEJFNVZUQlduN1VBUjRMMWxEZFBCalhBb09ybVY1b2QzaFo4b2g1ME1GdFd6Y1FXN2RRWVNEMW4yYVZ5RDByQUthSHZEOGxGUEgyMUQ3MDVmS29jVkxFSHZwQVN4VkVkWndNODlqNzNVMEFadE9zanZkTkpPQ21pVnltT2tZU3dXcTdtZGlWY2tQY3Bn0gGLAkFVX3lxTE8wa0hLeFRwV2ZDdm5yMmhGXzF1VkNfNV9aSHVjcHpBYVIwS3ZaQTZiM1pfbmhGdy1femJfRzlORmdTVUdiMFZrc2dGOTkxWGhSbDZMamFwSlhOWEpDQ1dIb25hVXRRaXBjb0dHVVh6c21Mbkp2NVJCS2VuUzNVci0tNGN2S0poNHlBQVlqbkJ1Mmx1REhseUhwSGc3emUtRDlGa0xWYjh6Y1hTSjdMdUFwNDFHcVJiTEg5LVZXWk1KRExEb2tEUi1FTEkwS1BJNWVkYWFvRzFsd2RkdE1qOV91WURCNHd3ZzZ5NktZdi1ETlpMdndsb1JmeE0xenBpX1h4dG1Ia0tBSmxzWQ?oc=5",
+        "published": "Fri, 05 Dec 2025 19:01:25 GMT",
+        "clean_title": "Warrior within: How one man\u2019s fight for purpose built a community",
         "crazy_score": 2
     },
     {
@@ -97,18 +97,18 @@
     },
     {
         "source_query": "site:ntnews.com.au",
-        "title": "Republican victory in Tennessee special election sparks bipartisan \u2018concern\u2019",
-        "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOQnBDT2wyLUxmQzJncXZRZWltMDM3a0VyV2x0MEJxc1lrSVVadlQyaEFnUE1adFVNVnBTdkZWUEVVcjJiZVNfa3FZUzlYdG84bkttaHJUTVBuWGMzUWg2NW04NWE4T0pQbXNtc25fMVdBaHNrMW5URk81cmtMSUliaVVKUlJRTjJpNXVhbjRKR3Jfd2xsMno4UXF5OTdkRzI2aEtWb3JWdVZXcFkwU0VpRmc1RzRmZWl5R1VtalRhNm5hNFJPQURnYXJWSi1QQXNFRXhUdzlPdjNXcG9MaUV3Y2hVVlBDcWR5?oc=5",
-        "published": "Thu, 04 Dec 2025 06:00:49 GMT",
-        "clean_title": "Republican victory in Tennessee special election sparks bipartisan \u2018concern\u2019",
+        "title": "Somalis have stolen \u2018billions of dollars\u2019 from taxpayers in Minnesota",
+        "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPWThOWHZBOF95TnI1R2FJVUZvR0wwalJOblpWT3JRRzlHV3RHaC16cVd3ektBSjNkNjgyektVQWE3RENtVnJMWnEtOTNNX0UxMDlwNlE3bUJGY3dWYmRlVHZ0NFZ2UDdaNko5M1NvakJWZ1VVOHFfWS11SXJ0QnBlZ05mbEJBZzRTM0xIUlMzN3hYQ1JGUW80cUxqOGRpWUxGd2IzbGxvaUtXZ1I2RUg0U3hXbEhtNEVhV3NKY25aWkw0UVFSMzctTHY2QnJEY2t6Y3NhZXJDT1JtVXpnbld3?oc=5",
+        "published": "Fri, 05 Dec 2025 04:47:07 GMT",
+        "clean_title": "Somalis have stolen \u2018billions of dollars\u2019 from taxpayers in Minnesota",
         "crazy_score": 1
     },
     {
         "source_query": "site:ntnews.com.au",
-        "title": "Jessie J surprises travellers with performance at London train station",
-        "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOREpYZmM5LTNYZHQza0lCb2g4MVhwSFgxclZGdUNqdHZ0bkk1MEJUV0hrbHQwbjR4MUtGQXRrZ2M1eHB5bXJMRzZaTW9HWW5acEdsZWlkVkxyQzFuLWpsQWV0aVl6N1R2TjNGeXFOTWk4WjFWRkVHT3VoTS1QMXBZNnktVkpURDhZalNGRnJKSFFxTGxkOEJuMGZ1aUllN2V0dUpJdmFIZ1BsMldTUTZIMGRKaDBVXzFkRm5UeWd5X2toOVAwWUxzX1VTTkdfTllub2lDWXVYWFhweEZ4cGdEa2pnMA?oc=5",
-        "published": "Tue, 02 Dec 2025 17:50:41 GMT",
-        "clean_title": "Jessie J surprises travellers with performance at London train station",
+        "title": "Republican victory in Tennessee special election sparks bipartisan \u2018concern\u2019",
+        "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOQnBDT2wyLUxmQzJncXZRZWltMDM3a0VyV2x0MEJxc1lrSVVadlQyaEFnUE1adFVNVnBTdkZWUEVVcjJiZVNfa3FZUzlYdG84bkttaHJUTVBuWGMzUWg2NW04NWE4T0pQbXNtc25fMVdBaHNrMW5URk81cmtMSUliaVVKUlJRTjJpNXVhbjRKR3Jfd2xsMno4UXF5OTdkRzI2aEtWb3JWdVZXcFkwU0VpRmc1RzRmZWl5R1VtalRhNm5hNFJPQURnYXJWSi1QQXNFRXhUdzlPdjNXcG9MaUV3Y2hVVlBDcWR5?oc=5",
+        "published": "Thu, 04 Dec 2025 06:00:49 GMT",
+        "clean_title": "Republican victory in Tennessee special election sparks bipartisan \u2018concern\u2019",
         "crazy_score": 1
     },
     {

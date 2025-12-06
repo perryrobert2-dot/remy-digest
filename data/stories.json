@@ -1,57 +1,28 @@
-[
-    {
-        "section": "masthead",
-        "writer_key": "masthead",
-        "headline": "Oh, what a tangled web of fate we weave!",
-        "subtext": "A heart-wrenching tale of canine companionship turned calamitous tragedy, leaving the community in somber reflection.",
-        "body": "To gaze upon the faithful hound, a creature bred of loyalty and love, then to witness such a dark turn \u2013 it rends the very fabric of our being. What dark star aligns when protector becomes destroyer? 'Tis a mortal coil, indeed, so fragile and so fleeting. The gentle paw, once offering comfort, now a harbinger of sorrow. What grim lessons does this teach us of the wild heart beating beneath even the most domesticated breast? A collective shudder ripples through the Remyverse, a stark reminder of the unpredictable dance of life and death, where joy can swiftly morph into an abyss of despair.",
-        "visual_prompt": "A single wilted rose lying on a cobblestone path, a small, overturned dog bowl nearby. The scene is bathed in a melancholic, soft twilight.",
-        "format": "soliloquy",
-        "featured": true,
-        "image": "images/Ohwhatatangledweboff_1764932995.png"
+{
+    "meta": {
+        "current_arc": "hard_rubbish_war",
+        "day": 3,
+        "status": "active"
     },
-    {
-        "section": "campaign",
-        "writer_key": "campaign",
-        "headline": "1000 Jobs Cut? They're Koala-fied for Failure!",
-        "subtext": "Another day, another government blunder leaving Wombat union reps fuming and Koala council workers scratching their heads.",
-        "body": "When lazy Koala council workers are barely seen, and still 1000 public service jobs get the chop, you've got to wonder who's really running the show. The Wombat Union reps are up in arms, but the big questions remain: Where did the budget go? And why are *we* always paying the price for *their* mess? It's not a bug, it's a feature of outdated thinking. Time for new leadership that actually works for the Remyverse, not just their cronies. #CutTheWasteNotTheWorkers #RemyverseRiot #TealDealTruth",
-        "visual_prompt": "A highly stylized, cartoonish image showing a large pile of official-looking, shredded documents. A small, forlorn-looking Wombat in a hard hat stands next to the pile, holding a tiny protest sign that says 'Justice for Jobs!'. A lazy Koala is sleeping on top of the pile.",
-        "format": "meme",
-        "featured": true,
-        "image": "images/1000JobsCutTheyreKoa_1764933010.png"
-    },
-    {
-        "section": "news",
-        "writer_key": "news",
-        "headline": "Chaos in Alice: Minibus Rammed, Echidna Injured in Bizarre Road Rage Incident",
-        "subtext": "A routine evening turned into a scene of vehicular mayhem as a Bin Chicken-driven minibus was allegedly rammed, leading to an Echidna's injury and a dramatic arrest.",
-        "body": "Alice Springs residents were left stunned last night as reports emerged of a bizarre road rage incident involving a local minibus. According to official statements from the city's Galah Constabulary, a vehicle allegedly rammed a public transport minibus, operated by a diligent Bin Chicken, causing it to swerve and strike a pedestrian \u2013 a prickly local Echidna, known for her sharp wit and even sharper spines. The Echidna sustained minor injuries and is recovering. The perpetrator, a notoriously aggressive Cockatoo, was swiftly apprehended after a short pursuit. Witnesses reported the Cockatoo was 'squawking mad' prior to the incident. Investigations are ongoing, with police trying to determine the motive behind this unusual act of aggression.",
-        "visual_prompt": "A damaged yellow public minibus with a Bin Chicken nervously inspecting a dented side panel. In the foreground, an Echidna with a bandaged leg is being comforted by another Echidna, set against the backdrop of a dusty Alice Springs street at dusk.",
-        "format": "standard",
-        "featured": false,
-        "image": "images/ChaosinAliceMinibusR_1764933027.png"
-    },
-    {
-        "section": "backpage",
-        "writer_key": "backpage",
-        "headline": "Naked Cane Toad Causes Stir Near School, Blames 'Tropical Heatwave Frenzy'",
-        "subtext": "A 'completely unclothed' Cane Toad bewildered parents and pupils outside Billabong Elementary, claiming the intense heat led to his bizarre behavior.",
-        "body": "The normally tranquil environs of Billabong Elementary were thrown into disarray yesterday when a notoriously uninhibited Cane Toad was reportedly found 'completely naked' near the school grounds. Parents, including several ruffled Cockatoos, expressed outrage, claiming the Cane Toad was 'exposing himself to children'. When confronted by local authorities (a very patient Koala constable), the amphibian offender reportedly croaked, 'It's the tropical heatwave frenzy! The humidity, it just... makes my skin breathe!' He then attempted to explain his 'natural state' was simply a response to the searing sun. While the 'tropical heatwave frenzy' defense raised a few eyebrows, the Cane Toad was promptly escorted away, advised to seek cooler climes, and perhaps invest in some swim trunks.",
-        "visual_prompt": "A wide shot of a primary school entrance, where several agitated Cockatoos are flapping their wings and squawking. A small, blurry figure of a very startled Koala in a police hat is visible in the background, gently escorting a large, slightly embarrassed Cane Toad wearing a single leaf.",
-        "format": "standard",
-        "featured": false,
-        "image": "images/NakedCaneToadCausesS_1764933044.png"
-    },
-    {
-        "section": "letters",
-        "writer_key": "letters",
-        "headline": "Fury Over 'Confusing Commode Chaos' at Schools!",
-        "subtext": "Local Echidnas and Cockatoos vent their spiny frustrations over new 'gender-neutral' toilet proposals, fearing social upheaval.",
-        "body": "To the Editor: I am absolutely OUTRAGED by the latest decree from the seemingly out-of-touch School Board! Their proposal to install *only* gender-neutral toilets at our beloved Billabong Elementary is nothing short of an assault on common sense! My little Echidna, Prickles, is already confused enough about which grub to eat, let alone which water closet to use! What about privacy? What about tradition? Are we to surrender to this 'progressive' pandemonium where even basic bathroom etiquette is thrown out the window? We, the sensible folk of the Remyverse, demand separate facilities! This is just another example of Koala council workers wasting time on frivolous ideas instead of fixing the real problems, like the ever-growing pile of rubbish the Bin Chickens are 'collecting' on the street corner! Sort it out, or face the wrath of truly concerned citizens! \u2013 Outraged Echidna of Spinewick.",
-        "visual_prompt": "A queue of young anthropomorphic animals, including a small Echidna looking confused, standing in front of two toilet doors, both labeled with a single, ambiguous symbol. A large, angry Cockatoo is squawking vehemently in the background. The scene is within a school hallway.",
-        "format": "standard",
-        "featured": false,
-        "image": "images/FuryOverConfusingCom_1764933059.png"
+    "arcs": {
+        "hard_rubbish_war": {
+            "title": "The Battle of Number 42",
+            "days": {
+                "1": {
+                    "Remy": "Include a furious letter from 'Angus (Outraged of Cromer)'. He is complaining that his neighbor at Number 42 has put a stained mattress out two weeks before Council Collection dates. He threatens to 'take matters into his own paws'.",
+                    "Swoop": "Mention in the Crime Watch sidebar that tensions are rising in Cromer over illegal dumping, but keep it vague."
+                },
+                "2": {
+                    "Swoop": "Report on a 'Midnight Dumper'. A small black dog was seen dragging a mattress from Number 42 to Number 44 under cover of darkness. Police issued a warning for 'Malicious Redistribution of Rubbish'.",
+                    "Binnsy": "Review the pile of rubbish at Number 44 as a new avant-garde installation titled 'Suburban Despair'. Praise the texture of the mattress stains.",
+                    "Zoomie": "Complain in the Sport section that you almost crashed your E-bike into a 'random mattress' while doing a wheelie on the footpath. Use emojis."
+                },
+                "3": {
+                    "Mick_and_Scampy": "Mick (Mallard) wants to drive the mattress to the tip in his ute to 'stop the whinging'. Scampy (Glider) wants to launch a Senate Inquiry into 'Sustainable Bedding Disposal Frameworks'.",
+                    "Sly": "List the house at Number 44 for sale. Describe the rubbish pile out front as a 'feature art installation' that adds cultural value to the property.",
+                    "Remy": "Write an Editorial calling for calm, but noting that the mattress does indeed look unsightly."
+                }
+            }
+        }
     }
-]
+}

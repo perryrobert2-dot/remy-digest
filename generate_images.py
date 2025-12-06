@@ -1,20 +1,17 @@
 import json
 import os
 import time
-from google import genai
-from google.genai import types
-from PIL import Image
+import google.generativeai as genai
 from io import BytesIO
+from PIL import Image
 
 # --- Configuration ---
 KEYS_FILE = "keys.json"
-DATA_FILE = os.path.join("data", "stories.json")
-IMAGE_DIR = os.path.join("output", "images")
-RELATIVE_IMG_PATH = "images"
-MODEL_ID = "gemini-2.5-flash-image"
+DATA_FILE = os.path.join("data", "stories_generated.json")
+IMAGE_DIR = "assets"
 
-# THE NO-GO ZONE
-NEGATIVE_PROMPT = "NO HUMANS, NO PEOPLE, NO MAN, NO WOMAN, NO CHILD, NO FACES, NO TEXT, NO WATERMARKS, NO SIGNATURES, NO BLUR, NO DISTORTION."
+# SELECTED MODEL FROM YOUR LIST
+MODEL_ID = "models/gemini-2.5-flash-image"
 
 def load_keys():
     try:
@@ -23,99 +20,111 @@ def load_keys():
 
 def main():
     keys = load_keys()
-    if not keys: return
-
-    client = genai.Client(api_key=keys.get("gemini"))
-
-    try:
-        with open(DATA_FILE, 'r') as f: stories = json.load(f)
-    except FileNotFoundError:
-        print("No stories found.")
+    if not keys: 
+        print("❌ Keys file missing.")
         return
 
-    os.makedirs(IMAGE_DIR, exist_ok=True)
-    print(f"--- The Darkroom is Open ({MODEL_ID}) ---")
+    # Handle both key names
+    api_key = keys.get("GEMINI_API_KEY") or keys.get("gemini")
+    if not api_key:
+        print("❌ API Key not found.")
+        return
+
+    # Configure the SDK
+    genai.configure(api_key=api_key)
+    
+    # Initialize the Model
+    model = genai.GenerativeModel(MODEL_ID)
+
+    if not os.path.exists(DATA_FILE):
+        print("❌ No stories found. Run generate_news.py first.")
+        return
+
+    with open(DATA_FILE, 'r') as f: 
+        content_dict = json.load(f)
+
+    if not os.path.exists(IMAGE_DIR):
+        os.makedirs(IMAGE_DIR)
+
+    print(f"--- 📸 The Darkroom is Open ({MODEL_ID}) ---")
     
     updated_count = 0
 
-    for i, story in enumerate(stories):
-        # SKIP if image already exists (Protects manual uploads)
-        if story.get("image"): 
-            print(f"Skipping {story['headline']} (Image already assigned)")
+    for section_key, story in content_dict.items():
+        
+        # Skip if no prompt
+        if "image_prompt" not in story or not story["image_prompt"]:
             continue
 
-        print(f"\nDeveloping photo for: {story['headline']}")
-        
-        # 1. Base Style
-        base_style = "Style: Ligne Claire (Herge/Tintin), editorial cartoon, flat colors, clear lines."
-        
-        # 2. Format Adjustments
-        fmt = story.get('format', 'standard')
-        visual_prompt = story.get('visual_prompt', story['headline'])
-        
-        composition = "COMPOSITION: Wide shot, establish the scene."
-        if fmt == "soliloquy":
-            composition = "COMPOSITION: Theatrical spotlight on a single subject. Dark background."
-        elif fmt == "meme":
-            composition = "COMPOSITION: Subject centered, solid background, plenty of negative space at top and bottom."
+        # Skip if image already exists
+        if story.get("image_path") and os.path.exists(story["image_path"]): 
+            print(f"Skipping {section_key} (Image already exists)")
+            continue
 
-        # 3. The Prompt Payload
+        print(f"\nDeveloping photo for section: {section_key}")
+        print(f"Headline: {story['headline']}")
+        
+        # Construct Prompt
         full_prompt = f"""
-        {base_style}
-        SUBJECT: {visual_prompt}
-        {composition}
-        IMPORTANT: {NEGATIVE_PROMPT}
+        Generate an image.
+        Art Style: Ligne Claire, Hergé style, Tintin style, flat colors, clear black outlines, vintage comic book coloring.
+        Subject: {story['image_prompt']}
+        NO HUMANS, NO REALISTIC PEOPLE, NO TEXT, NO WATERMARKS, NO BLUR.
         """
 
         while True:
-            print(f"Shooting ({fmt})...")
+            print(f"   Shooting...")
+            
             try:
-                response = client.models.generate_content(
-                    model=MODEL_ID,
-                    contents=full_prompt,
-                    config=types.GenerateContentConfig(
-                        response_modalities=["IMAGE"],
-                    )
-                )
-
-                image_data = None
+                # API Call using the SDK
+                response = model.generate_content(full_prompt)
                 
-                # CRASH FIX: Check if content actually exists before asking for parts
-                if response.candidates and response.candidates[0].content and response.candidates[0].content.parts:
-                    for part in response.candidates[0].content.parts:
-                        if part.inline_data:
-                            image_data = part.inline_data.data
-                            break
+                # Check if we got an image back
+                if not response.parts:
+                    print("   ⚠️  Film overexposed (Blocked by safety filter).")
+                    break
                 
-                if not image_data:
-                    print("Error: Model returned text or BLOCKED the image (Safety Filter).")
-                    # If blocked, we skip this image and move to the next story
-                    break 
+                # Extract image data (it comes as inline_data in parts)
+                img_part = None
+                for part in response.parts:
+                    if part.inline_data:
+                        img_part = part
+                        break
+                
+                if not img_part:
+                    print("   ⚠️  No image data returned.")
+                    break
 
-                image = Image.open(BytesIO(image_data))
+                # Convert raw bytes to Image
+                image = Image.open(BytesIO(img_part.inline_data.data))
                 image.show()
 
-                choice = input(">> [K]eep, [R]etry, or [S]kip? ").lower()
+                choice = input("   >> [K]eep, [R]etry, or [S]kip? ").lower()
 
                 if choice == 'k':
-                    slug = "".join(x for x in story['headline'] if x.isalnum())[:20]
-                    filename = f"{slug}_{int(time.time())}.png"
+                    filename = f"{section_key}_{int(time.time())}.png"
                     save_path = os.path.join(IMAGE_DIR, filename)
+                    
                     image.save(save_path)
-                    story['image'] = f"{RELATIVE_IMG_PATH}/{filename}"
+                    
+                    story['image_path'] = f"assets/{filename}"
                     updated_count += 1
+                    print(f"   ✅ Saved to {save_path}")
                     break 
-                elif choice == 's': break
-                elif choice == 'r': print("Retrying generation...")
-            
-            except Exception as e:
-                print(f"Camera Jammed: {e}")
-                break
+                elif choice == 's': 
+                    break
+                elif choice == 'r': 
+                    print("   🔄 Retrying generation...")
 
+            except Exception as e:
+                print(f"   ❌ Camera Jammed: {e}")
+                break
+            
+    # Save JSON updates
     if updated_count > 0:
         with open(DATA_FILE, 'w') as f:
-            json.dump(stories, f, indent=4)
-        print(f"\nSuccess! {updated_count} photos approved.")
+            json.dump(content_dict, f, indent=4)
+        print(f"\nSuccess! {updated_count} photos developed.")
 
 if __name__ == "__main__":
     main()
