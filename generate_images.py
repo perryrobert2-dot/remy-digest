@@ -8,7 +8,7 @@ from PIL import Image
 # --- Configuration ---
 KEYS_FILE = "keys.json"
 DATA_FILE = os.path.join("data", "stories_generated.json")
-IMAGE_DIR = "assets"
+IMAGE_DIR = os.path.join("output", "assets")
 
 # SELECTED MODEL FROM YOUR LIST
 MODEL_ID = "models/gemini-2.5-flash-image"
